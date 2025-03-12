@@ -1,0 +1,9 @@
+/home/uav/ros2_ws/build/uuv_teleop/CMakeFiles/uninstall.dir
+/home/uav/ros2_ws/build/uuv_teleop/CMakeFiles/uuv_teleop_uninstall.dir
+/home/uav/ros2_ws/build/uuv_teleop/CMakeFiles/test.dir
+/home/uav/ros2_ws/build/uuv_teleop/CMakeFiles/edit_cache.dir
+/home/uav/ros2_ws/build/uuv_teleop/CMakeFiles/rebuild_cache.dir
+/home/uav/ros2_ws/build/uuv_teleop/CMakeFiles/list_install_components.dir
+/home/uav/ros2_ws/build/uuv_teleop/CMakeFiles/install.dir
+/home/uav/ros2_ws/build/uuv_teleop/CMakeFiles/install/local.dir
+/home/uav/ros2_ws/build/uuv_teleop/CMakeFiles/install/strip.dir

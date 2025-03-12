@@ -1,0 +1,160 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-b500347cb20253749496.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "uuv_trajectory_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_utils_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_utils_egg-Release-44a39a6b6f530c9fc3ce.json",
+					"name" : "ament_cmake_python_build_utils_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_uuv_control_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_uuv_control_interfaces_egg-Release-b7204c31d6ca35707327.json",
+					"name" : "ament_cmake_python_build_uuv_control_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_uuv_trajectory_generator.path_generator_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_uuv_trajectory_generator.path_generator_egg-Release-3d21089d8a0358e59d8a.json",
+					"name" : "ament_cmake_python_build_uuv_trajectory_generator.path_generator_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_uuv_trajectory_generator_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_uuv_trajectory_generator_egg-Release-af677b141fb8e2b39184.json",
+					"name" : "ament_cmake_python_build_uuv_trajectory_generator_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_uuv_waypoints_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_uuv_waypoints_egg-Release-7cdc5f30c8cffaf68ade.json",
+					"name" : "ament_cmake_python_build_uuv_waypoints_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_utils-Release-7bb65268b38d4f374f6b.json",
+					"name" : "ament_cmake_python_copy_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_uuv_control_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_uuv_control_interfaces-Release-410b35c7466636a2eee9.json",
+					"name" : "ament_cmake_python_copy_uuv_control_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_uuv_trajectory_generator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_uuv_trajectory_generator-Release-2adf8009ec0092fc3321.json",
+					"name" : "ament_cmake_python_copy_uuv_trajectory_generator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_uuv_trajectory_generator.path_generator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_uuv_trajectory_generator.path_generator-Release-091263f80fbb47ab9ed4.json",
+					"name" : "ament_cmake_python_copy_uuv_trajectory_generator.path_generator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_uuv_waypoints::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_uuv_waypoints-Release-70189819197e4957f6e2.json",
+					"name" : "ament_cmake_python_copy_uuv_waypoints",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-107fa7729099c49f00b0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_trajectory_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_trajectory_control_uninstall-Release-8c2889b9d33b5edbc654.json",
+					"name" : "uuv_trajectory_control_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/uav/ros2_ws/build/uuv_trajectory_control",
+		"source" : "/home/uav/ros2_ws/src/Plankton/uuv_control/uuv_trajectory_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

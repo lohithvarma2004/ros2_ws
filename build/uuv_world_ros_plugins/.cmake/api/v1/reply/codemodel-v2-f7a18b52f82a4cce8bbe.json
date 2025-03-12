@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-1a19763af0873f841d74.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "uuv_world_ros_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-49bd72ecdfb32ec62897.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_sc_ros_interface_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_sc_ros_interface_plugin-Release-4bc4c3073efd2ea6d4e8.json",
+					"name" : "uuv_sc_ros_interface_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_underwater_current_ros_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_underwater_current_ros_plugin-Release-d5a14e5f3e2f8bf848a6.json",
+					"name" : "uuv_underwater_current_ros_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_world_ros_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_world_ros_plugins_uninstall-Release-f927b9dba91e13b76591.json",
+					"name" : "uuv_world_ros_plugins_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/uav/ros2_ws/build/uuv_world_ros_plugins",
+		"source" : "/home/uav/ros2_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

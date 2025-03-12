@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-816b3b7bb7b688e355ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "uuv_assistants",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_tf_quaternion_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_tf_quaternion_egg-Release-6160737609823f7ed8b8.json",
+					"name" : "ament_cmake_python_build_tf_quaternion_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_tf_quaternion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_tf_quaternion-Release-422dbc6c68fddafe705d.json",
+					"name" : "ament_cmake_python_copy_tf_quaternion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-68fe442f997fd9cb4b5a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_assistants_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_assistants_uninstall-Release-a6ad9249c6ad092c985f.json",
+					"name" : "uuv_assistants_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_message_to_tf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_message_to_tf-Release-b987cc09a06c42c95daa.json",
+					"name" : "uuv_message_to_tf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/uav/ros2_ws/build/uuv_assistants",
+		"source" : "/home/uav/ros2_ws/src/Plankton/uuv_assistants"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

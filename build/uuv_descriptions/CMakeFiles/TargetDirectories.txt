@@ -1,0 +1,9 @@
+/home/uav/ros2_ws/build/uuv_descriptions/CMakeFiles/uninstall.dir
+/home/uav/ros2_ws/build/uuv_descriptions/CMakeFiles/uuv_descriptions_uninstall.dir
+/home/uav/ros2_ws/build/uuv_descriptions/CMakeFiles/test.dir
+/home/uav/ros2_ws/build/uuv_descriptions/CMakeFiles/edit_cache.dir
+/home/uav/ros2_ws/build/uuv_descriptions/CMakeFiles/rebuild_cache.dir
+/home/uav/ros2_ws/build/uuv_descriptions/CMakeFiles/list_install_components.dir
+/home/uav/ros2_ws/build/uuv_descriptions/CMakeFiles/install.dir
+/home/uav/ros2_ws/build/uuv_descriptions/CMakeFiles/install/local.dir
+/home/uav/ros2_ws/build/uuv_descriptions/CMakeFiles/install/strip.dir

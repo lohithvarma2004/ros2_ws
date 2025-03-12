@@ -1,0 +1,15 @@
+/home/uav/ros2_ws/install/uuv_tutorials/share/ament_index/resource_index/package_run_dependencies/uuv_tutorials
+/home/uav/ros2_ws/install/uuv_tutorials/share/ament_index/resource_index/parent_prefix_path/uuv_tutorials
+/home/uav/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/environment/ament_prefix_path.sh
+/home/uav/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/environment/ament_prefix_path.dsv
+/home/uav/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/environment/path.sh
+/home/uav/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/environment/path.dsv
+/home/uav/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/local_setup.bash
+/home/uav/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/local_setup.sh
+/home/uav/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/local_setup.zsh
+/home/uav/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/local_setup.dsv
+/home/uav/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/package.dsv
+/home/uav/ros2_ws/install/uuv_tutorials/share/ament_index/resource_index/packages/uuv_tutorials
+/home/uav/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/cmake/uuv_tutorialsConfig.cmake
+/home/uav/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/cmake/uuv_tutorialsConfig-version.cmake
+/home/uav/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/package.xml

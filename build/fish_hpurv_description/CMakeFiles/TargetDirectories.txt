@@ -1,0 +1,9 @@
+/home/uav/ros2_ws/build/fish_hpurv_description/CMakeFiles/uninstall.dir
+/home/uav/ros2_ws/build/fish_hpurv_description/CMakeFiles/fish_hpurv_description_uninstall.dir
+/home/uav/ros2_ws/build/fish_hpurv_description/CMakeFiles/test.dir
+/home/uav/ros2_ws/build/fish_hpurv_description/CMakeFiles/edit_cache.dir
+/home/uav/ros2_ws/build/fish_hpurv_description/CMakeFiles/rebuild_cache.dir
+/home/uav/ros2_ws/build/fish_hpurv_description/CMakeFiles/list_install_components.dir
+/home/uav/ros2_ws/build/fish_hpurv_description/CMakeFiles/install.dir
+/home/uav/ros2_ws/build/fish_hpurv_description/CMakeFiles/install/local.dir
+/home/uav/ros2_ws/build/fish_hpurv_description/CMakeFiles/install/strip.dir

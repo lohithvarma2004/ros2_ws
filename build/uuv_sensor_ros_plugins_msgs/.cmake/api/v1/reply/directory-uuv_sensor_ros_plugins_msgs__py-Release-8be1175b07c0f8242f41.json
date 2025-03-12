@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "uuv_sensor_ros_plugins_msgs__py",
+		"source" : "/home/uav/ros2_ws/build/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs__py"
+	}
+}

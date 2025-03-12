@@ -1,0 +1,193 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-320fdbdf4f161f562f1a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "uuv_gazebo_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "UNIT_ThrusterConversionFcn_TEST::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UNIT_ThrusterConversionFcn_TEST-Release-1876533cdf58a8adfcae.json",
+					"name" : "UNIT_ThrusterConversionFcn_TEST",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UNIT_ThrusterDynamics_TEST::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UNIT_ThrusterDynamics_TEST-Release-6e46941caeaef960f68a.json",
+					"name" : "UNIT_ThrusterDynamics_TEST",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-fbd5b3c74b792092ab44.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-955172bab39b40473857.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "umbilical_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-umbilical_plugin-Release-f6c3f254c90246dfbf6c.json",
+					"name" : "umbilical_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-41079fde220890d691e8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_dynamics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_dynamics-Release-ab002eb6d7dfc1256c62.json",
+					"name" : "uuv_dynamics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_fin_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_fin_plugin-Release-fc4ccb8482bd636f3e84.json",
+					"name" : "uuv_fin_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_plugins_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_plugins_msgs-Release-210f4eb1d516d8093c03.json",
+					"name" : "uuv_gazebo_plugins_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_plugins_uninstall-Release-c8471bef62765c5a66c9.json",
+					"name" : "uuv_gazebo_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_thruster_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_thruster_plugin-Release-8deea0f538cece1227d6.json",
+					"name" : "uuv_thruster_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_underwater_object_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_underwater_object_plugin-Release-5d3f5b0485dc3a98260f.json",
+					"name" : "uuv_underwater_object_plugin",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/uav/ros2_ws/build/uuv_gazebo_plugins",
+		"source" : "/home/uav/ros2_ws/src/Plankton/uuv_gazebo_plugins/uuv_gazebo_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
