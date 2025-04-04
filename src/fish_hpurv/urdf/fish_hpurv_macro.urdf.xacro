@@ -1,0 +1,141 @@
+<robot name="fish_hpurv" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:include filename="$(find uuv_descriptions)/urdf/common.urdf.xacro" />
+  <xacro:include filename="$(find uuv_gazebo_ros_plugins)/urdf/fin_snippets.xacro" />
+  <xacro:include filename="$(find uuv_gazebo_ros_plugins)/urdf/snippets.xacro" />
+
+  <link name="link_base">
+    <inertial>
+      <origin xyz="0.246461 -0.269567 0.0980965" rpy="0 -0 0"/>
+      <mass value="1" />
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01" />
+    </inertial>
+    <visual>
+      <origin xyz="0.246461 -0.269567 0.0980965" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="$(find fish_hpurv)/meshes/link_base.stl" />
+      </geometry>
+      <material name="link_base_material">
+        <color rgba="0.796078 0.823529 0.937255 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.246461 -0.269567 0.0980965" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="$(find fish_hpurv)/meshes/link_base.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Fins -->
+  <xacro:fin_two_lines_macro 
+      namespace="fish_hpurv" 
+      parent_link="link_base" 
+      fin_id="1"
+      min_joint_limit="-0.5" 
+      max_joint_limit="0.5"
+      mesh_filename="$(find fish_hpurv)/meshes/link_caudal.stl"
+      fin_dynamics_time_constant="1.0" 
+      fin_cross_section_area="0.1"
+      fluid_density="1000" 
+      a0="0.0" 
+      alpha_stall="15"
+      cla="0.1" 
+      cla_stall="0.2" 
+      cda="0.01" 
+      cda_stall="0.02"
+      current_velocity_topic="/current_velocity">
+    <origin xyz="0.275 0 -0.02" rpy="1.57 3.14 0" />
+  </xacro:fin_two_lines_macro>
+
+  <xacro:fin_two_lines_macro 
+      namespace="fish_hpurv" 
+      parent_link="link_base" 
+      fin_id="2"
+      min_joint_limit="-0.5" 
+      max_joint_limit="0.5"
+      mesh_filename="$(find fish_hpurv)/meshes/link_pectoral_left.stl"
+      fin_dynamics_time_constant="1.0" 
+      fin_cross_section_area="0.1"
+      fluid_density="1000" 
+      a0="0.0" 
+      alpha_stall="15"
+      cla="0.1" 
+      cla_stall="0.2" 
+      cda="0.01" 
+      cda_stall="0.02"
+      current_velocity_topic="/current_velocity">
+    <origin xyz="0.25 0 0.045" rpy="-1.57 3.14 0" />
+  </xacro:fin_two_lines_macro>
+
+  <xacro:fin_two_lines_macro 
+      namespace="fish_hpurv" 
+      parent_link="link_base" 
+      fin_id="3"
+      min_joint_limit="-0.5" 
+      max_joint_limit="0.5"
+      mesh_filename="$(find fish_hpurv)/meshes/link_pectoral_right.stl"
+      fin_dynamics_time_constant="1.0" 
+      fin_cross_section_area="0.1"
+      fluid_density="1000" 
+      a0="0.0" 
+      alpha_stall="15"
+      cla="0.1" 
+      cla_stall="0.2" 
+      cda="0.01" 
+      cda_stall="0.02"
+      current_velocity_topic="/current_velocity">
+    <origin xyz="0.25 0 0.045" rpy="-1.57 3.14 0" />
+  </xacro:fin_two_lines_macro>
+
+  <!-- Gazebo plugins -->
+  <gazebo>
+    <plugin name="buoyancy_plugin" filename="libBuoyancyPlugin.so">
+      <fluid_density>1000</fluid_density>
+      <link name="link_base">
+        <volume>0.001</volume>
+        <center_of_volume>0.246461 -0.269567 0.0980965</center_of_volume>
+      </link>
+      <link name="fish_hpurv/fin1">
+        <volume>0.0000001</volume>
+        <center_of_volume>0 0 0</center_of_volume>
+      </link>
+      <link name="fish_hpurv/fin2">
+        <volume>0.0000001</volume>
+        <center_of_volume>0 0 0</center_of_volume>
+      </link>
+      <link name="fish_hpurv/fin3">
+        <volume>0.0000001</volume>
+        <center_of_volume>0 0 0</center_of_volume>
+      </link>
+    </plugin>
+
+    <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+      <robotNamespace>/</robotNamespace>
+      <parameters>$(find fish_hpurv)/config/my_controllers.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+  <ros2_control name="FishSim" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+    <joint name="fish_hpurv/fin1_joint">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="fish_hpurv/fin2_joint">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="fish_hpurv/fin3_joint">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control>
+
+
+
+</robot>
