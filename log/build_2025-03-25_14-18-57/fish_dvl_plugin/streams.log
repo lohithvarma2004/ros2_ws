@@ -1,0 +1,125 @@
+[0.010s] Invoking command in '/home/uav/ros2_ws/build/fish_dvl_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/uav/ros2_ws/src/fish_dvl_plugin -DCMAKE_INSTALL_PREFIX=/home/uav/ros2_ws/install/fish_dvl_plugin
+[0.175s] -- The C compiler identification is GNU 11.4.0
+[0.398s] -- The CXX compiler identification is GNU 11.4.0
+[0.534s] -- Detecting C compiler ABI info
+[0.606s] -- Detecting C compiler ABI info - done
+[0.610s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.610s] -- Detecting C compile features
+[0.611s] -- Detecting C compile features - done
+[0.613s] -- Detecting CXX compiler ABI info
+[0.689s] -- Detecting CXX compiler ABI info - done
+[0.693s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.693s] -- Detecting CXX compile features
+[0.693s] -- Detecting CXX compile features - done
+[0.702s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.801s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.885s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.978s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.984s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.992s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.006s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.021s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.067s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.071s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.604s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.166s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.141s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.151s] -- Looking for pthread.h
+[3.231s] -- Looking for pthread.h - found
+[3.231s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.298s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.299s] -- Found Threads: TRUE  
+[3.344s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[3.356s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[3.357s] -- Checking for module 'bullet>=2.82'
+[3.363s] --   Found bullet, version 3.05
+[3.435s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[3.460s] -- Found assimp: /usr/include (found version "5.2.0") 
+[3.485s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.510s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[3.666s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.672s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.679s] -- Searching for dependencies of ignition-math6
+[3.681s] -- Looking for OGRE...
+[3.681s] -- OGRE_PREFIX_WATCH changed.
+[3.684s] -- Checking for module 'OGRE'
+[3.691s] --   Found OGRE, version 1.9.0
+[3.707s] -- Found Ogre Ghadamon (1.9.0)
+[3.899s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.906s] -- Looking for OGRE_Paging...
+[4.044s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[4.044s] -- Looking for OGRE_Terrain...
+[4.192s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[4.192s] -- Looking for OGRE_Property...
+[4.331s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[4.331s] -- Looking for OGRE_RTShaderSystem...
+[4.466s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[4.466s] -- Looking for OGRE_Volume...
+[4.603s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[4.603s] -- Looking for OGRE_Overlay...
+[4.739s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[12.043s] -- Looking for ignition-math6 -- found version 6.15.1
+[12.046s] -- Looking for ignition-transport8 -- found version 8.2.1
+[12.047s] -- Searching for dependencies of ignition-transport8
+[12.530s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[13.014s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[13.017s] -- Checking for module 'libzmq >= 4'
+[13.026s] --   Found libzmq , version 4.3.4
+[13.042s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[13.060s] -- Checking for module 'uuid'
+[13.067s] --   Found uuid, version 2.37.2
+[13.082s] -- Found UUID: TRUE  
+[13.084s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[13.085s] -- Searching for dependencies of ignition-msgs5
+[13.548s] -- Looking for ignition-math6 -- found version 6.15.1
+[13.552s] -- Checking for module 'tinyxml2'
+[13.559s] --   Found tinyxml2, version 9.0.0
+[13.575s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[13.578s] -- Looking for ignition-common3 -- found version 3.14.0
+[13.578s] -- Searching for dependencies of ignition-common3
+[13.593s] -- Looking for dlfcn.h - found
+[13.607s] -- Looking for libdl - found
+[13.608s] -- Found DL: TRUE  
+[13.642s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[13.643s] -- Searching for <ignition-common3> component [graphics]
+[13.645s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[13.646s] -- Searching for dependencies of ignition-common3-graphics
+[13.646s] -- Looking for ignition-math6 -- found version 6.15.1
+[13.649s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[13.649s] -- Searching for dependencies of ignition-fuel_tools4
+[14.203s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[14.211s] -- Checking for module 'jsoncpp'
+[14.218s] --   Found jsoncpp, version 1.9.5
+[14.233s] -- Found JSONCPP: TRUE  
+[14.237s] -- Checking for module 'libzip'
+[14.243s] --   Found libzip, version 1.7.3
+[14.258s] -- Found ZIP: TRUE  
+[14.258s] -- Looking for ignition-common3 -- found version 3.14.0
+[14.259s] -- Looking for ignition-math6 -- found version 6.15.1
+[14.259s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[14.263s] -- Gazebo version: 11.10
+[14.263s] -- Checking for module 'tbb'
+[14.270s] --   Found tbb, version 2021.5.0
+[14.287s] -- Found gazebo_plugins: 3.9.0 (/opt/ros/humble/share/gazebo_plugins/cmake)
+[14.344s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.406s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.406s] -- Configured cppcheck include dirs: /home/uav/ros2_ws/src/fish_dvl_plugin/include
+[14.406s] -- Configured cppcheck exclude dirs and/or files: 
+[14.408s] -- Added test 'lint_cmake' to check CMake code style
+[14.409s] -- Added test 'uncrustify' to check C / C++ code style
+[14.409s] -- Configured uncrustify additional arguments: 
+[14.409s] -- Added test 'xmllint' to check XML markup files
+[14.411s] -- Configuring done
+[14.484s] -- Generating done
+[14.488s] -- Build files have been written to: /home/uav/ros2_ws/build/fish_dvl_plugin
+[14.496s] Invoked command in '/home/uav/ros2_ws/build/fish_dvl_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/uav/ros2_ws/src/fish_dvl_plugin -DCMAKE_INSTALL_PREFIX=/home/uav/ros2_ws/install/fish_dvl_plugin
+[14.498s] Invoking command in '/home/uav/ros2_ws/build/fish_dvl_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/uav/ros2_ws/build/fish_dvl_plugin -- -j20 -l20
+[14.525s] [ 50%] [32mBuilding CXX object CMakeFiles/fish_dvl_plugin.dir/src/dvl_plugin.cpp.o[0m
+[16.420s] [01m[K/home/uav/ros2_ws/src/fish_dvl_plugin/src/dvl_plugin.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kgazebo/sensors/SensorPlugin.hh: No such file or directory
+[16.420s]     5 | #include [01;31m[K<gazebo/sensors/SensorPlugin.hh>[m[K
+[16.420s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.420s] compilation terminated.
+[16.423s] gmake[2]: *** [CMakeFiles/fish_dvl_plugin.dir/build.make:76: CMakeFiles/fish_dvl_plugin.dir/src/dvl_plugin.cpp.o] Error 1
+[16.423s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/fish_dvl_plugin.dir/all] Error 2
+[16.424s] gmake: *** [Makefile:146: all] Error 2
+[16.425s] Invoked command in '/home/uav/ros2_ws/build/fish_dvl_plugin' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/uav/ros2_ws/build/fish_dvl_plugin -- -j20 -l20

@@ -1,0 +1,380 @@
+[0.000000] (-) TimerEvent: {}
+[0.000404] (-) JobUnselected: {'identifier': 'butler'}
+[0.000472] (-) JobUnselected: {'identifier': 'fish_dvl_plugin'}
+[0.000483] (-) JobUnselected: {'identifier': 'fish_hpurv'}
+[0.000491] (-) JobUnselected: {'identifier': 'plankton'}
+[0.000499] (-) JobUnselected: {'identifier': 'plankton_utils'}
+[0.000509] (-) JobUnselected: {'identifier': 'uuv_assistants'}
+[0.000678] (-) JobUnselected: {'identifier': 'uuv_auv_control_allocator'}
+[0.000702] (-) JobUnselected: {'identifier': 'uuv_control_cascaded_pid'}
+[0.000724] (-) JobUnselected: {'identifier': 'uuv_control_msgs'}
+[0.000746] (-) JobUnselected: {'identifier': 'uuv_control_utils'}
+[0.000768] (-) JobUnselected: {'identifier': 'uuv_descriptions'}
+[0.000790] (-) JobUnselected: {'identifier': 'uuv_gazebo'}
+[0.000812] (-) JobUnselected: {'identifier': 'uuv_gazebo_plugins'}
+[0.000833] (-) JobUnselected: {'identifier': 'uuv_gazebo_ros_plugins_msgs'}
+[0.000855] (-) JobUnselected: {'identifier': 'uuv_gazebo_worlds'}
+[0.000877] (-) JobUnselected: {'identifier': 'uuv_sensor_ros_plugins'}
+[0.000898] (-) JobUnselected: {'identifier': 'uuv_sensor_ros_plugins_msgs'}
+[0.000920] (-) JobUnselected: {'identifier': 'uuv_simulator'}
+[0.000942] (-) JobUnselected: {'identifier': 'uuv_teleop'}
+[0.000964] (-) JobUnselected: {'identifier': 'uuv_thruster_manager'}
+[0.000985] (-) JobUnselected: {'identifier': 'uuv_trajectory_control'}
+[0.001007] (-) JobUnselected: {'identifier': 'uuv_tutorial_disturbances'}
+[0.001028] (-) JobUnselected: {'identifier': 'uuv_tutorial_dp_controller'}
+[0.001057] (-) JobUnselected: {'identifier': 'uuv_tutorial_seabed_world'}
+[0.001079] (-) JobUnselected: {'identifier': 'uuv_tutorials'}
+[0.001100] (-) JobUnselected: {'identifier': 'uuv_world_plugins'}
+[0.001122] (-) JobUnselected: {'identifier': 'uuv_world_ros_plugins'}
+[0.001144] (-) JobUnselected: {'identifier': 'uuv_world_ros_plugins_msgs'}
+[0.001167] (uuv_gazebo_ros_plugins) JobQueued: {'identifier': 'uuv_gazebo_ros_plugins', 'dependencies': OrderedDict([('uuv_gazebo_plugins', '/home/uav/ros2_ws/install/uuv_gazebo_plugins'), ('uuv_gazebo_ros_plugins_msgs', '/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs')])}
+[0.001366] (uuv_gazebo_ros_plugins) JobStarted: {'identifier': 'uuv_gazebo_ros_plugins'}
+[0.073745] (uuv_gazebo_ros_plugins) JobProgress: {'identifier': 'uuv_gazebo_ros_plugins', 'progress': 'cmake'}
+[0.075077] (uuv_gazebo_ros_plugins) JobProgress: {'identifier': 'uuv_gazebo_ros_plugins', 'progress': 'build'}
+[0.075954] (uuv_gazebo_ros_plugins) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uav/ros2_ws/build/uuv_gazebo_ros_plugins', '--', '-j20', '-l20'], 'cwd': '/home/uav/ros2_ws/build/uuv_gazebo_ros_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'uav'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/uav/ros2_ws/install/uuv_gazebo_plugins/lib:/home/uav/ros2_ws/install/uuv_world_ros_plugins/lib:/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs/lib:/home/uav/ros2_ws/install/uuv_world_plugins/lib:/home/uav/ros2_ws/install/uuv_thruster_manager/lib:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib:/home/uav/ros2_ws/install/uuv_control_msgs/lib:/home/uav/ros2_ws/install/uuv_auv_control_allocator/lib:/home/uav/ros2_ws/install/gazebo_ros2_control/lib:/home/uav/ros2_ws/install/fish_dvl_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/uav'), ('OLDPWD', '/home/uav'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/uav/hero/install:/home/uav/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uav'), ('NAME', 'DESKTOP-8O5EOBH'), ('WSL_INTEROP', '/run/WSL/371_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/uav/ros2_ws/install/plankton:/home/uav/ros2_ws/install/uuv_simulator:/home/uav/ros2_ws/install/uuv_world_ros_plugins:/home/uav/ros2_ws/install/uuv_tutorials:/home/uav/ros2_ws/install/uuv_tutorial_dp_controller:/home/uav/ros2_ws/install/uuv_tutorial_disturbances:/home/uav/ros2_ws/install/uuv_control_utils:/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_world_plugins:/home/uav/ros2_ws/install/uuv_tutorial_seabed_world:/home/uav/ros2_ws/install/uuv_trajectory_control:/home/uav/ros2_ws/install/uuv_teleop:/home/uav/ros2_ws/install/uuv_thruster_manager:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_worlds:/home/uav/ros2_ws/install/uuv_descriptions:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_plugins:/home/uav/ros2_ws/install/uuv_gazebo:/home/uav/ros2_ws/install/uuv_control_msgs:/home/uav/ros2_ws/install/uuv_control_cascaded_pid:/home/uav/ros2_ws/install/uuv_auv_control_allocator:/home/uav/ros2_ws/install/uuv_assistants:/home/uav/ros2_ws/install/plankton_utils:/home/uav/ros2_ws/install/fish_hpurv_description:/home/uav/ros2_ws/install/fish_hpurv:/home/uav/ros2_ws/install/gazebo_ros2_control:/home/uav/ros2_ws/install/fish_dvl_plugin:/home/uav/ros2_ws/install/butler:/home/uav/hero/install/four_wheel_mobile_robot_navigation:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/uav/ros2_ws/build/uuv_gazebo_ros_plugins'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_control_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_control_cascaded_pid/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_assistants/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/plankton_utils/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_plugins:/home/uav/ros2_ws/install/plankton:/home/uav/ros2_ws/install/uuv_simulator:/home/uav/ros2_ws/install/uuv_world_ros_plugins:/home/uav/ros2_ws/install/uuv_tutorials:/home/uav/ros2_ws/install/uuv_tutorial_dp_controller:/home/uav/ros2_ws/install/uuv_tutorial_disturbances:/home/uav/ros2_ws/install/uuv_control_utils:/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_world_plugins:/home/uav/ros2_ws/install/uuv_tutorial_seabed_world:/home/uav/ros2_ws/install/uuv_trajectory_control:/home/uav/ros2_ws/install/uuv_teleop:/home/uav/ros2_ws/install/uuv_thruster_manager:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_worlds:/home/uav/ros2_ws/install/uuv_descriptions:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins:/home/uav/ros2_ws/install/uuv_gazebo:/home/uav/ros2_ws/install/uuv_control_msgs:/home/uav/ros2_ws/install/uuv_control_cascaded_pid:/home/uav/ros2_ws/install/uuv_auv_control_allocator:/home/uav/ros2_ws/install/uuv_assistants:/home/uav/ros2_ws/install/plankton_utils:/home/uav/ros2_ws/install/fish_hpurv_description:/home/uav/ros2_ws/install/fish_hpurv:/home/uav/ros2_ws/install/gazebo_ros2_control:/home/uav/ros2_ws/install/fish_dvl_plugin:/home/uav/ros2_ws/install/butler:/home/uav/hero/install/four_wheel_mobile_robot_navigation:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.100655] (-) TimerEvent: {}
+[0.200997] (-) TimerEvent: {}
+[0.272470] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/uuv_fin_ros_plugin.dir/src/FinROSPlugin.cpp.o\x1b[0m\n'}
+[0.272740] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/uuv_thruster_ros_plugin.dir/src/ThrusterROSPlugin.cpp.o\x1b[0m\n'}
+[0.272786] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/linear_battery_ros_plugin.dir/src/LinearBatteryROSPlugin.cpp.o\x1b[0m\n'}
+[0.272817] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/custom_battery_consumer_ros_plugin.dir/src/CustomBatteryConsumerROSPlugin.cpp.o\x1b[0m\n'}
+[0.272845] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/uuv_joint_state_publisher.dir/src/JointStatePublisher.cpp.o\x1b[0m\n'}
+[0.276792] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/uuv_underwater_object_ros_plugin.dir/src/UnderwaterObjectROSPlugin.cpp.o\x1b[0m\n'}
+[0.277046] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/uuv_accelerations_test_plugin.dir/src/AccelerationsTestPlugin.cpp.o\x1b[0m\n'}
+[0.301358] (-) TimerEvent: {}
+[0.403753] (-) TimerEvent: {}
+[0.507328] (-) TimerEvent: {}
+[0.610769] (-) TimerEvent: {}
+[0.714305] (-) TimerEvent: {}
+[0.817765] (-) TimerEvent: {}
+[0.921364] (-) TimerEvent: {}
+[1.026854] (-) TimerEvent: {}
+[1.132261] (-) TimerEvent: {}
+[1.237776] (-) TimerEvent: {}
+[1.338405] (-) TimerEvent: {}
+[1.439035] (-) TimerEvent: {}
+[1.540075] (-) TimerEvent: {}
+[1.641134] (-) TimerEvent: {}
+[1.745413] (-) TimerEvent: {}
+[1.851009] (-) TimerEvent: {}
+[1.953057] (-) TimerEvent: {}
+[2.058559] (-) TimerEvent: {}
+[2.163995] (-) TimerEvent: {}
+[2.269154] (-) TimerEvent: {}
+[2.374477] (-) TimerEvent: {}
+[2.477611] (-) TimerEvent: {}
+[2.583089] (-) TimerEvent: {}
+[2.683774] (-) TimerEvent: {}
+[2.789228] (-) TimerEvent: {}
+[2.894712] (-) TimerEvent: {}
+[2.998364] (-) TimerEvent: {}
+[3.103817] (-) TimerEvent: {}
+[3.205263] (-) TimerEvent: {}
+[3.310814] (-) TimerEvent: {}
+[3.415523] (-) TimerEvent: {}
+[3.520043] (-) TimerEvent: {}
+[3.625539] (-) TimerEvent: {}
+[3.727773] (-) TimerEvent: {}
+[3.833310] (-) TimerEvent: {}
+[3.938797] (-) TimerEvent: {}
+[4.044321] (-) TimerEvent: {}
+[4.149822] (-) TimerEvent: {}
+[4.253184] (-) TimerEvent: {}
+[4.358669] (-) TimerEvent: {}
+[4.459774] (-) TimerEvent: {}
+[4.565320] (-) TimerEvent: {}
+[4.670859] (-) TimerEvent: {}
+[4.774958] (-) TimerEvent: {}
+[4.880488] (-) TimerEvent: {}
+[4.982557] (-) TimerEvent: {}
+[5.088195] (-) TimerEvent: {}
+[5.193766] (-) TimerEvent: {}
+[5.297115] (-) TimerEvent: {}
+[5.402745] (-) TimerEvent: {}
+[5.505684] (-) TimerEvent: {}
+[5.611211] (-) TimerEvent: {}
+[5.711701] (-) TimerEvent: {}
+[5.817265] (-) TimerEvent: {}
+[5.922737] (-) TimerEvent: {}
+[6.026316] (-) TimerEvent: {}
+[6.131803] (-) TimerEvent: {}
+[6.233027] (-) TimerEvent: {}
+[6.338511] (-) TimerEvent: {}
+[6.443977] (-) TimerEvent: {}
+[6.548407] (-) TimerEvent: {}
+[6.654023] (-) TimerEvent: {}
+[6.756173] (-) TimerEvent: {}
+[6.861735] (-) TimerEvent: {}
+[6.967293] (-) TimerEvent: {}
+[7.072662] (-) TimerEvent: {}
+[7.178226] (-) TimerEvent: {}
+[7.281382] (-) TimerEvent: {}
+[7.386975] (-) TimerEvent: {}
+[7.487375] (-) TimerEvent: {}
+[7.592867] (-) TimerEvent: {}
+[7.698403] (-) TimerEvent: {}
+[7.802283] (-) TimerEvent: {}
+[7.907896] (-) TimerEvent: {}
+[8.009448] (-) TimerEvent: {}
+[8.114914] (-) TimerEvent: {}
+[8.218266] (-) TimerEvent: {}
+[8.322922] (-) TimerEvent: {}
+[8.428603] (-) TimerEvent: {}
+[8.531030] (-) TimerEvent: {}
+[8.635815] (-) TimerEvent: {}
+[8.741513] (-) TimerEvent: {}
+[8.846978] (-) TimerEvent: {}
+[8.952486] (-) TimerEvent: {}
+[9.057334] (-) TimerEvent: {}
+[9.161480] (-) TimerEvent: {}
+[9.265634] (-) TimerEvent: {}
+[9.369776] (-) TimerEvent: {}
+[9.473872] (-) TimerEvent: {}
+[9.578010] (-) TimerEvent: {}
+[9.681879] (-) TimerEvent: {}
+[9.786004] (-) TimerEvent: {}
+[9.890187] (-) TimerEvent: {}
+[9.994445] (-) TimerEvent: {}
+[10.098666] (-) TimerEvent: {}
+[10.202765] (-) TimerEvent: {}
+[10.307010] (-) TimerEvent: {}
+[10.411189] (-) TimerEvent: {}
+[10.514523] (-) TimerEvent: {}
+[10.618650] (-) TimerEvent: {}
+[10.722529] (-) TimerEvent: {}
+[10.826704] (-) TimerEvent: {}
+[10.930916] (-) TimerEvent: {}
+[11.035092] (-) TimerEvent: {}
+[11.139272] (-) TimerEvent: {}
+[11.243437] (-) TimerEvent: {}
+[11.347570] (-) TimerEvent: {}
+[11.451749] (-) TimerEvent: {}
+[11.555900] (-) TimerEvent: {}
+[11.660059] (-) TimerEvent: {}
+[11.763633] (-) TimerEvent: {}
+[11.867840] (-) TimerEvent: {}
+[11.972007] (-) TimerEvent: {}
+[12.076175] (-) TimerEvent: {}
+[12.180343] (-) TimerEvent: {}
+[12.284522] (-) TimerEvent: {}
+[12.388609] (-) TimerEvent: {}
+[12.492789] (-) TimerEvent: {}
+[12.596859] (-) TimerEvent: {}
+[12.700906] (-) TimerEvent: {}
+[12.804528] (-) TimerEvent: {}
+[12.908679] (-) TimerEvent: {}
+[13.012862] (-) TimerEvent: {}
+[13.116948] (-) TimerEvent: {}
+[13.221190] (-) TimerEvent: {}
+[13.325346] (-) TimerEvent: {}
+[13.429468] (-) TimerEvent: {}
+[13.533625] (-) TimerEvent: {}
+[13.636992] (-) TimerEvent: {}
+[13.741118] (-) TimerEvent: {}
+[13.844699] (-) TimerEvent: {}
+[13.948872] (-) TimerEvent: {}
+[14.053008] (-) TimerEvent: {}
+[14.157215] (-) TimerEvent: {}
+[14.261492] (-) TimerEvent: {}
+[14.365644] (-) TimerEvent: {}
+[14.469796] (-) TimerEvent: {}
+[14.573972] (-) TimerEvent: {}
+[14.676964] (-) TimerEvent: {}
+[14.781096] (-) TimerEvent: {}
+[14.884657] (-) TimerEvent: {}
+[14.988006] (-) TimerEvent: {}
+[15.092188] (-) TimerEvent: {}
+[15.196255] (-) TimerEvent: {}
+[15.300373] (-) TimerEvent: {}
+[15.404520] (-) TimerEvent: {}
+[15.508640] (-) TimerEvent: {}
+[15.612708] (-) TimerEvent: {}
+[15.716782] (-) TimerEvent: {}
+[15.820826] (-) TimerEvent: {}
+[15.924314] (-) TimerEvent: {}
+[16.028395] (-) TimerEvent: {}
+[16.132502] (-) TimerEvent: {}
+[16.236608] (-) TimerEvent: {}
+[16.340741] (-) TimerEvent: {}
+[16.444872] (-) TimerEvent: {}
+[16.517394] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libuuv_joint_state_publisher.so\x1b[0m\n'}
+[16.545320] (-) TimerEvent: {}
+[16.646012] (-) TimerEvent: {}
+[16.746759] (-) TimerEvent: {}
+[16.847496] (-) TimerEvent: {}
+[16.939837] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'[ 57%] Built target uuv_joint_state_publisher\n'}
+[16.947834] (-) TimerEvent: {}
+[17.048308] (-) TimerEvent: {}
+[17.151481] (-) TimerEvent: {}
+[17.246890] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library liblinear_battery_ros_plugin.so\x1b[0m\n'}
+[17.251756] (-) TimerEvent: {}
+[17.352803] (-) TimerEvent: {}
+[17.453799] (-) TimerEvent: {}
+[17.523731] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'[ 64%] Built target linear_battery_ros_plugin\n'}
+[17.554338] (-) TimerEvent: {}
+[17.655110] (-) TimerEvent: {}
+[17.756268] (-) TimerEvent: {}
+[17.776235] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libuuv_accelerations_test_plugin.so\x1b[0m\n'}
+[17.856506] (-) TimerEvent: {}
+[17.957352] (-) TimerEvent: {}
+[18.033842] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'[ 71%] Built target uuv_accelerations_test_plugin\n'}
+[18.057675] (-) TimerEvent: {}
+[18.158067] (-) TimerEvent: {}
+[18.262120] (-) TimerEvent: {}
+[18.366518] (-) TimerEvent: {}
+[18.470945] (-) TimerEvent: {}
+[18.575254] (-) TimerEvent: {}
+[18.679579] (-) TimerEvent: {}
+[18.780279] (-) TimerEvent: {}
+[18.884742] (-) TimerEvent: {}
+[18.989052] (-) TimerEvent: {}
+[18.996937] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_battery_consumer_ros_plugin.so\x1b[0m\n'}
+[19.092501] (-) TimerEvent: {}
+[19.196927] (-) TimerEvent: {}
+[19.277300] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'[ 78%] Built target custom_battery_consumer_ros_plugin\n'}
+[19.297943] (-) TimerEvent: {}
+[19.402355] (-) TimerEvent: {}
+[19.506617] (-) TimerEvent: {}
+[19.610976] (-) TimerEvent: {}
+[19.715346] (-) TimerEvent: {}
+[19.819811] (-) TimerEvent: {}
+[19.922821] (-) TimerEvent: {}
+[20.026246] (-) TimerEvent: {}
+[20.130218] (-) TimerEvent: {}
+[20.234526] (-) TimerEvent: {}
+[20.338879] (-) TimerEvent: {}
+[20.443152] (-) TimerEvent: {}
+[20.547437] (-) TimerEvent: {}
+[20.651734] (-) TimerEvent: {}
+[20.756004] (-) TimerEvent: {}
+[20.860314] (-) TimerEvent: {}
+[20.964593] (-) TimerEvent: {}
+[21.068903] (-) TimerEvent: {}
+[21.172536] (-) TimerEvent: {}
+[21.276809] (-) TimerEvent: {}
+[21.381079] (-) TimerEvent: {}
+[21.485353] (-) TimerEvent: {}
+[21.589625] (-) TimerEvent: {}
+[21.693938] (-) TimerEvent: {}
+[21.798296] (-) TimerEvent: {}
+[21.902616] (-) TimerEvent: {}
+[22.006888] (-) TimerEvent: {}
+[22.111325] (-) TimerEvent: {}
+[22.215050] (-) TimerEvent: {}
+[22.319402] (-) TimerEvent: {}
+[22.423762] (-) TimerEvent: {}
+[22.528060] (-) TimerEvent: {}
+[22.617710] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libuuv_fin_ros_plugin.so\x1b[0m\n'}
+[22.628261] (-) TimerEvent: {}
+[22.731079] (-) TimerEvent: {}
+[22.835372] (-) TimerEvent: {}
+[22.910967] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'[ 85%] Built target uuv_fin_ros_plugin\n'}
+[22.935871] (-) TimerEvent: {}
+[23.036441] (-) TimerEvent: {}
+[23.139548] (-) TimerEvent: {}
+[23.243252] (-) TimerEvent: {}
+[23.347541] (-) TimerEvent: {}
+[23.451882] (-) TimerEvent: {}
+[23.556286] (-) TimerEvent: {}
+[23.660642] (-) TimerEvent: {}
+[23.764980] (-) TimerEvent: {}
+[23.869322] (-) TimerEvent: {}
+[23.970215] (-) TimerEvent: {}
+[24.074487] (-) TimerEvent: {}
+[24.178790] (-) TimerEvent: {}
+[24.282385] (-) TimerEvent: {}
+[24.386679] (-) TimerEvent: {}
+[24.491022] (-) TimerEvent: {}
+[24.595317] (-) TimerEvent: {}
+[24.699694] (-) TimerEvent: {}
+[24.803980] (-) TimerEvent: {}
+[24.908241] (-) TimerEvent: {}
+[25.012517] (-) TimerEvent: {}
+[25.116840] (-) TimerEvent: {}
+[25.221121] (-) TimerEvent: {}
+[25.324811] (-) TimerEvent: {}
+[25.361773] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX shared library libuuv_thruster_ros_plugin.so\x1b[0m\n'}
+[25.426112] (-) TimerEvent: {}
+[25.530469] (-) TimerEvent: {}
+[25.634809] (-) TimerEvent: {}
+[25.636306] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'[ 92%] Built target uuv_thruster_ros_plugin\n'}
+[25.738929] (-) TimerEvent: {}
+[25.843269] (-) TimerEvent: {}
+[25.947621] (-) TimerEvent: {}
+[26.051897] (-) TimerEvent: {}
+[26.156191] (-) TimerEvent: {}
+[26.177072] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libuuv_underwater_object_ros_plugin.so\x1b[0m\n'}
+[26.259538] (-) TimerEvent: {}
+[26.363268] (-) TimerEvent: {}
+[26.467542] (-) TimerEvent: {}
+[26.488437] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'[100%] Built target uuv_underwater_object_ros_plugin\n'}
+[26.494856] (uuv_gazebo_ros_plugins) CommandEnded: {'returncode': 0}
+[26.496107] (uuv_gazebo_ros_plugins) JobProgress: {'identifier': 'uuv_gazebo_ros_plugins', 'progress': 'install'}
+[26.500672] (uuv_gazebo_ros_plugins) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/uav/ros2_ws/build/uuv_gazebo_ros_plugins'], 'cwd': '/home/uav/ros2_ws/build/uuv_gazebo_ros_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'uav'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/uav/ros2_ws/install/uuv_gazebo_plugins/lib:/home/uav/ros2_ws/install/uuv_world_ros_plugins/lib:/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs/lib:/home/uav/ros2_ws/install/uuv_world_plugins/lib:/home/uav/ros2_ws/install/uuv_thruster_manager/lib:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib:/home/uav/ros2_ws/install/uuv_control_msgs/lib:/home/uav/ros2_ws/install/uuv_auv_control_allocator/lib:/home/uav/ros2_ws/install/gazebo_ros2_control/lib:/home/uav/ros2_ws/install/fish_dvl_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/uav'), ('OLDPWD', '/home/uav'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/uav/hero/install:/home/uav/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uav'), ('NAME', 'DESKTOP-8O5EOBH'), ('WSL_INTEROP', '/run/WSL/371_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/uav/ros2_ws/install/plankton:/home/uav/ros2_ws/install/uuv_simulator:/home/uav/ros2_ws/install/uuv_world_ros_plugins:/home/uav/ros2_ws/install/uuv_tutorials:/home/uav/ros2_ws/install/uuv_tutorial_dp_controller:/home/uav/ros2_ws/install/uuv_tutorial_disturbances:/home/uav/ros2_ws/install/uuv_control_utils:/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_world_plugins:/home/uav/ros2_ws/install/uuv_tutorial_seabed_world:/home/uav/ros2_ws/install/uuv_trajectory_control:/home/uav/ros2_ws/install/uuv_teleop:/home/uav/ros2_ws/install/uuv_thruster_manager:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_worlds:/home/uav/ros2_ws/install/uuv_descriptions:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_plugins:/home/uav/ros2_ws/install/uuv_gazebo:/home/uav/ros2_ws/install/uuv_control_msgs:/home/uav/ros2_ws/install/uuv_control_cascaded_pid:/home/uav/ros2_ws/install/uuv_auv_control_allocator:/home/uav/ros2_ws/install/uuv_assistants:/home/uav/ros2_ws/install/plankton_utils:/home/uav/ros2_ws/install/fish_hpurv_description:/home/uav/ros2_ws/install/fish_hpurv:/home/uav/ros2_ws/install/gazebo_ros2_control:/home/uav/ros2_ws/install/fish_dvl_plugin:/home/uav/ros2_ws/install/butler:/home/uav/hero/install/four_wheel_mobile_robot_navigation:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/uav/ros2_ws/build/uuv_gazebo_ros_plugins'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_control_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_control_cascaded_pid/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_assistants/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/plankton_utils/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_plugins:/home/uav/ros2_ws/install/plankton:/home/uav/ros2_ws/install/uuv_simulator:/home/uav/ros2_ws/install/uuv_world_ros_plugins:/home/uav/ros2_ws/install/uuv_tutorials:/home/uav/ros2_ws/install/uuv_tutorial_dp_controller:/home/uav/ros2_ws/install/uuv_tutorial_disturbances:/home/uav/ros2_ws/install/uuv_control_utils:/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_world_plugins:/home/uav/ros2_ws/install/uuv_tutorial_seabed_world:/home/uav/ros2_ws/install/uuv_trajectory_control:/home/uav/ros2_ws/install/uuv_teleop:/home/uav/ros2_ws/install/uuv_thruster_manager:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_worlds:/home/uav/ros2_ws/install/uuv_descriptions:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins:/home/uav/ros2_ws/install/uuv_gazebo:/home/uav/ros2_ws/install/uuv_control_msgs:/home/uav/ros2_ws/install/uuv_control_cascaded_pid:/home/uav/ros2_ws/install/uuv_auv_control_allocator:/home/uav/ros2_ws/install/uuv_assistants:/home/uav/ros2_ws/install/plankton_utils:/home/uav/ros2_ws/install/fish_hpurv_description:/home/uav/ros2_ws/install/fish_hpurv:/home/uav/ros2_ws/install/gazebo_ros2_control:/home/uav/ros2_ws/install/fish_dvl_plugin:/home/uav/ros2_ws/install/butler:/home/uav/hero/install/four_wheel_mobile_robot_navigation:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[26.504925] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[26.505483] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/environment/library_path.sh\n'}
+[26.505663] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/environment/library_path.dsv\n'}
+[26.506621] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib/libuuv_fin_ros_plugin.so\n'}
+[26.507445] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Set runtime path of "/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib/libuuv_fin_ros_plugin.so" to ""\n'}
+[26.508034] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib/libuuv_thruster_ros_plugin.so\n'}
+[26.509286] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Set runtime path of "/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib/libuuv_thruster_ros_plugin.so" to ""\n'}
+[26.509856] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib/libuuv_underwater_object_ros_plugin.so\n'}
+[26.511118] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Set runtime path of "/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib/libuuv_underwater_object_ros_plugin.so" to ""\n'}
+[26.511602] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib/libuuv_joint_state_publisher.so\n'}
+[26.512141] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Set runtime path of "/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib/libuuv_joint_state_publisher.so" to ""\n'}
+[26.512813] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib/libuuv_accelerations_test_plugin.so\n'}
+[26.513355] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Set runtime path of "/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib/libuuv_accelerations_test_plugin.so" to ""\n'}
+[26.514139] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib/liblinear_battery_ros_plugin.so\n'}
+[26.514664] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Set runtime path of "/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib/liblinear_battery_ros_plugin.so" to ""\n'}
+[26.515421] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib/libcustom_battery_consumer_ros_plugin.so\n'}
+[26.516243] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Set runtime path of "/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib/libcustom_battery_consumer_ros_plugin.so" to ""\n'}
+[26.516677] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins\n'}
+[26.516969] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.h\n'}
+[26.517076] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/LinearBatteryROSPlugin.h\n'}
+[26.517240] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.h\n'}
+[26.517303] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/JointStatePublisher.h\n'}
+[26.517333] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.h\n'}
+[26.517367] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/UnderwaterObjectROSPlugin.h\n'}
+[26.517393] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.h\n'}
+[26.517420] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/urdf\n'}
+[26.517491] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/urdf/fin_snippets.xacro\n'}
+[26.517652] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/urdf/battery_snippets.xacro\n'}
+[26.517750] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/urdf/snippets.xacro\n'}
+[26.517883] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/urdf/misc.xacro\n'}
+[26.518034] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/urdf/thruster_snippets.xacro\n'}
+[26.518074] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/ament_index/resource_index/package_run_dependencies/uuv_gazebo_ros_plugins\n'}
+[26.518234] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/ament_index/resource_index/parent_prefix_path/uuv_gazebo_ros_plugins\n'}
+[26.518506] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/environment/ament_prefix_path.sh\n'}
+[26.518603] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/environment/ament_prefix_path.dsv\n'}
+[26.518684] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/environment/path.sh\n'}
+[26.518735] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/environment/path.dsv\n'}
+[26.518766] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/local_setup.bash\n'}
+[26.518855] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/local_setup.sh\n'}
+[26.518883] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/local_setup.zsh\n'}
+[26.518908] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/local_setup.dsv\n'}
+[26.518934] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/package.dsv\n'}
+[26.518958] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/ament_index/resource_index/packages/uuv_gazebo_ros_plugins\n'}
+[26.520058] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/cmake/export_uuv_fin_ros_pluginExport.cmake\n'}
+[26.520177] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/cmake/export_uuv_fin_ros_pluginExport-release.cmake\n'}
+[26.520396] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/cmake/export_uuv_thruster_ros_pluginExport.cmake\n'}
+[26.520582] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/cmake/export_uuv_thruster_ros_pluginExport-release.cmake\n'}
+[26.520928] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/cmake/export_uuv_underwater_object_ros_pluginExport.cmake\n'}
+[26.521041] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/cmake/export_uuv_underwater_object_ros_pluginExport-release.cmake\n'}
+[26.521457] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/cmake/export_uuv_joint_state_publisherExport.cmake\n'}
+[26.521522] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/cmake/export_uuv_joint_state_publisherExport-release.cmake\n'}
+[26.521721] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/cmake/export_uuv_accelerations_test_pluginExport.cmake\n'}
+[26.521837] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/cmake/export_uuv_accelerations_test_pluginExport-release.cmake\n'}
+[26.522063] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/cmake/export_linear_battery_ros_pluginExport.cmake\n'}
+[26.522160] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/cmake/export_linear_battery_ros_pluginExport-release.cmake\n'}
+[26.522619] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/cmake/export_custom_battery_consumer_ros_pluginExport.cmake\n'}
+[26.522721] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/cmake/export_custom_battery_consumer_ros_pluginExport-release.cmake\n'}
+[26.522793] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[26.522896] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[26.523149] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[26.523259] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[26.523328] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/cmake/uuv_gazebo_ros_pluginsConfig.cmake\n'}
+[26.523395] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/cmake/uuv_gazebo_ros_pluginsConfig-version.cmake\n'}
+[26.523462] (uuv_gazebo_ros_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/package.xml\n'}
+[26.524241] (uuv_gazebo_ros_plugins) CommandEnded: {'returncode': 0}
+[26.539071] (uuv_gazebo_ros_plugins) JobEnded: {'identifier': 'uuv_gazebo_ros_plugins', 'rc': 0}
+[26.539880] (-) EventReactorShutdown: {}

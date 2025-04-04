@@ -1,0 +1,96 @@
+[0.010s] Invoking command in '/home/uav/ros2_ws/build/fish_hpurv': /usr/bin/cmake --build /home/uav/ros2_ws/build/fish_hpurv -- -j20 -l20
+[0.058s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.151s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.234s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.236s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.242s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.252s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.263s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.306s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.308s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.216s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.277s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.307s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.309s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.314s] -- Searching for dependencies of ignition-math6
+[2.316s] -- Looking for OGRE...
+[2.319s] -- Found Ogre Ghadamon (1.9.0)
+[2.320s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.325s] -- Looking for OGRE_Paging...
+[2.325s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.325s] -- Looking for OGRE_Terrain...
+[2.326s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.326s] -- Looking for OGRE_Property...
+[2.326s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.326s] -- Looking for OGRE_RTShaderSystem...
+[2.326s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.326s] -- Looking for OGRE_Volume...
+[2.326s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.326s] -- Looking for OGRE_Overlay...
+[2.326s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[9.375s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.376s] -- Looking for ignition-transport8 -- found version 8.2.1
+[9.376s] -- Searching for dependencies of ignition-transport8
+[9.854s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[10.364s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[10.367s] -- Checking for module 'libzmq >= 4'
+[10.376s] --   Found libzmq , version 4.3.4
+[10.395s] -- Checking for module 'uuid'
+[10.401s] --   Found uuid, version 2.37.2
+[10.417s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[10.417s] -- Searching for dependencies of ignition-msgs5
+[10.934s] -- Looking for ignition-math6 -- found version 6.15.1
+[10.937s] -- Checking for module 'tinyxml2'
+[10.944s] --   Found tinyxml2, version 9.0.0
+[10.960s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[10.960s] -- Looking for ignition-common3 -- found version 3.14.0
+[10.960s] -- Searching for dependencies of ignition-common3
+[10.961s] -- Looking for dlfcn.h - found
+[10.961s] -- Looking for libdl - found
+[10.993s] -- Searching for <ignition-common3> component [graphics]
+[10.994s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[10.994s] -- Searching for dependencies of ignition-common3-graphics
+[10.994s] -- Looking for ignition-math6 -- found version 6.15.1
+[10.996s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[10.996s] -- Searching for dependencies of ignition-fuel_tools4
+[11.532s] -- Checking for module 'jsoncpp'
+[11.539s] --   Found jsoncpp, version 1.9.5
+[11.556s] -- Checking for module 'libzip'
+[11.563s] --   Found libzip, version 1.7.3
+[11.577s] -- Looking for ignition-common3 -- found version 3.14.0
+[11.577s] -- Looking for ignition-math6 -- found version 6.15.1
+[11.577s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[11.579s] -- Gazebo version: 11.10
+[11.581s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[11.584s] -- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[11.608s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.643s] Error parsing '/home/uav/ros2_ws/src/fish_hpurv/package.xml':
+[11.683s] Traceback (most recent call last):
+[11.683s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[11.683s]     main()
+[11.684s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[11.684s]     raise e
+[11.684s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[11.684s]     package = parse_package_string(
+[11.684s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[11.684s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[11.684s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/uav/ros2_ws/src/fish_hpurv/package.xml':
+[11.684s] Error(s):
+[11.684s] - The generic dependency on 'rclcpp' is redundant with: exec_depend
+[11.684s] - The generic dependency on 'trajectory_msgs' is redundant with: exec_depend
+[11.695s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[11.695s]   execute_process(/usr/bin/python3
+[11.695s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[11.695s]   /home/uav/ros2_ws/src/fish_hpurv/package.xml
+[11.695s]   /home/uav/ros2_ws/build/fish_hpurv/ament_cmake_core/package.cmake) returned
+[11.695s]   error code 1
+[11.695s] Call Stack (most recent call first):
+[11.695s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[11.695s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[11.695s]   CMakeLists.txt:45 (ament_lint_auto_find_test_dependencies)
+[11.695s] 
+[11.695s] [0m
+[11.695s] -- Configuring incomplete, errors occurred!
+[11.695s] See also "/home/uav/ros2_ws/build/fish_hpurv/CMakeFiles/CMakeOutput.log".
+[11.706s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[11.707s] Invoked command in '/home/uav/ros2_ws/build/fish_hpurv' returned '2': /usr/bin/cmake --build /home/uav/ros2_ws/build/fish_hpurv -- -j20 -l20

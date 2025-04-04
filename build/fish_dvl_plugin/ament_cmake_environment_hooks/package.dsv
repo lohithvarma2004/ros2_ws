@@ -1,0 +1,4 @@
+source;share/fish_dvl_plugin/local_setup.bash
+source;share/fish_dvl_plugin/local_setup.dsv
+source;share/fish_dvl_plugin/local_setup.sh
+source;share/fish_dvl_plugin/local_setup.zsh

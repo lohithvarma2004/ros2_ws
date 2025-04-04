@@ -1,0 +1,420 @@
+[0.000000] (-) TimerEvent: {}
+[0.000222] (-) JobUnselected: {'identifier': 'butler'}
+[0.000247] (-) JobUnselected: {'identifier': 'fish_dvl_plugin'}
+[0.000255] (-) JobUnselected: {'identifier': 'fish_hpurv'}
+[0.000262] (-) JobUnselected: {'identifier': 'gazebo_ros2_control_demos'}
+[0.000268] (-) JobUnselected: {'identifier': 'plankton'}
+[0.000275] (-) JobUnselected: {'identifier': 'plankton_utils'}
+[0.000281] (-) JobUnselected: {'identifier': 'uuv_assistants'}
+[0.000287] (-) JobUnselected: {'identifier': 'uuv_auv_control_allocator'}
+[0.000293] (-) JobUnselected: {'identifier': 'uuv_control_cascaded_pid'}
+[0.000299] (-) JobUnselected: {'identifier': 'uuv_control_msgs'}
+[0.000305] (-) JobUnselected: {'identifier': 'uuv_control_utils'}
+[0.000335] (-) JobUnselected: {'identifier': 'uuv_descriptions'}
+[0.000357] (-) JobUnselected: {'identifier': 'uuv_gazebo'}
+[0.000378] (-) JobUnselected: {'identifier': 'uuv_gazebo_plugins'}
+[0.000398] (-) JobUnselected: {'identifier': 'uuv_gazebo_ros_plugins'}
+[0.000420] (-) JobUnselected: {'identifier': 'uuv_gazebo_ros_plugins_msgs'}
+[0.000441] (-) JobUnselected: {'identifier': 'uuv_gazebo_worlds'}
+[0.000462] (-) JobUnselected: {'identifier': 'uuv_sensor_ros_plugins'}
+[0.000483] (-) JobUnselected: {'identifier': 'uuv_sensor_ros_plugins_msgs'}
+[0.000505] (-) JobUnselected: {'identifier': 'uuv_simulator'}
+[0.000526] (-) JobUnselected: {'identifier': 'uuv_teleop'}
+[0.000547] (-) JobUnselected: {'identifier': 'uuv_thruster_manager'}
+[0.000569] (-) JobUnselected: {'identifier': 'uuv_trajectory_control'}
+[0.000590] (-) JobUnselected: {'identifier': 'uuv_tutorial_disturbances'}
+[0.000611] (-) JobUnselected: {'identifier': 'uuv_tutorial_dp_controller'}
+[0.000632] (-) JobUnselected: {'identifier': 'uuv_tutorial_seabed_world'}
+[0.000654] (-) JobUnselected: {'identifier': 'uuv_tutorials'}
+[0.000675] (-) JobUnselected: {'identifier': 'uuv_world_plugins'}
+[0.000696] (-) JobUnselected: {'identifier': 'uuv_world_ros_plugins'}
+[0.000717] (-) JobUnselected: {'identifier': 'uuv_world_ros_plugins_msgs'}
+[0.000740] (gazebo_ros2_control) JobQueued: {'identifier': 'gazebo_ros2_control', 'dependencies': OrderedDict()}
+[0.000763] (gazebo_ros2_control) JobStarted: {'identifier': 'gazebo_ros2_control'}
+[0.007856] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'cmake'}
+[0.009043] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '/home/uav/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control', '-DCMAKE_INSTALL_PREFIX=/home/uav/ros2_ws/install/gazebo_ros2_control'], 'cwd': '/home/uav/ros2_ws/build/gazebo_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'uav'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/uav/ros2_ws/install/uuv_world_ros_plugins/lib:/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs/lib:/home/uav/ros2_ws/install/uuv_world_plugins/lib:/home/uav/ros2_ws/install/uuv_thruster_manager/lib:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/uav/ros2_ws/install/uuv_gazebo_plugins/lib:/home/uav/ros2_ws/install/uuv_control_msgs/lib:/home/uav/ros2_ws/install/uuv_auv_control_allocator/lib:/home/uav/ros2_ws/install/fish_dvl_plugin/lib:/home/uav/hero/install/dvl_a50/lib:/home/uav/hero/install/dvl_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/uav'), ('OLDPWD', '/home/uav/ros2_ws/src/gazebo_ros2_control'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/uav/hero/install:/home/uav/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uav'), ('NAME', 'DESKTOP-8O5EOBH'), ('WSL_INTEROP', '/run/WSL/9998_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/uav/ros2_ws/install/plankton:/home/uav/ros2_ws/install/uuv_simulator:/home/uav/ros2_ws/install/uuv_world_ros_plugins:/home/uav/ros2_ws/install/uuv_tutorials:/home/uav/ros2_ws/install/uuv_tutorial_dp_controller:/home/uav/ros2_ws/install/uuv_tutorial_disturbances:/home/uav/ros2_ws/install/uuv_control_utils:/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_world_plugins:/home/uav/ros2_ws/install/uuv_tutorial_seabed_world:/home/uav/ros2_ws/install/uuv_trajectory_control:/home/uav/ros2_ws/install/uuv_teleop:/home/uav/ros2_ws/install/uuv_thruster_manager:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_worlds:/home/uav/ros2_ws/install/uuv_descriptions:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_plugins:/home/uav/ros2_ws/install/uuv_gazebo:/home/uav/ros2_ws/install/uuv_control_msgs:/home/uav/ros2_ws/install/uuv_control_cascaded_pid:/home/uav/ros2_ws/install/uuv_auv_control_allocator:/home/uav/ros2_ws/install/uuv_assistants:/home/uav/ros2_ws/install/plankton_utils:/home/uav/ros2_ws/install/fish_hpurv_description:/home/uav/ros2_ws/install/fish_hpurv:/home/uav/ros2_ws/install/fish_dvl_plugin:/home/uav/ros2_ws/install/butler:/home/uav/hero/install/dvl_a50:/home/uav/hero/install/dvl_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/uav/ros2_ws/build/gazebo_ros2_control'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_control_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_control_cascaded_pid/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_assistants/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/plankton_utils/local/lib/python3.10/dist-packages:/home/uav/hero/install/dvl_a50/local/lib/python3.10/dist-packages:/home/uav/hero/install/dvl_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/uav/ros2_ws/install/plankton:/home/uav/ros2_ws/install/uuv_simulator:/home/uav/ros2_ws/install/uuv_world_ros_plugins:/home/uav/ros2_ws/install/uuv_tutorials:/home/uav/ros2_ws/install/uuv_tutorial_dp_controller:/home/uav/ros2_ws/install/uuv_tutorial_disturbances:/home/uav/ros2_ws/install/uuv_control_utils:/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_world_plugins:/home/uav/ros2_ws/install/uuv_tutorial_seabed_world:/home/uav/ros2_ws/install/uuv_trajectory_control:/home/uav/ros2_ws/install/uuv_teleop:/home/uav/ros2_ws/install/uuv_thruster_manager:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_worlds:/home/uav/ros2_ws/install/uuv_descriptions:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_plugins:/home/uav/ros2_ws/install/uuv_gazebo:/home/uav/ros2_ws/install/uuv_control_msgs:/home/uav/ros2_ws/install/uuv_control_cascaded_pid:/home/uav/ros2_ws/install/uuv_auv_control_allocator:/home/uav/ros2_ws/install/uuv_assistants:/home/uav/ros2_ws/install/plankton_utils:/home/uav/ros2_ws/install/fish_hpurv_description:/home/uav/ros2_ws/install/fish_hpurv:/home/uav/ros2_ws/install/fish_dvl_plugin:/home/uav/ros2_ws/install/butler:/home/uav/hero/install/dvl_a50:/home/uav/hero/install/dvl_msgs:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.099133] (-) TimerEvent: {}
+[0.155973] (gazebo_ros2_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199225] (-) TimerEvent: {}
+[0.299599] (-) TimerEvent: {}
+[0.364721] (gazebo_ros2_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.399806] (-) TimerEvent: {}
+[0.491249] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.499900] (-) TimerEvent: {}
+[0.558768] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.562698] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.563143] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.563608] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.565847] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600126] (-) TimerEvent: {}
+[0.636123] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.640007] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.640151] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.640356] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.650145] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700221] (-) TimerEvent: {}
+[0.741171] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.800334] (-) TimerEvent: {}
+[0.815617] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[0.819273] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found controller_manager: 2.48.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[0.900478] (-) TimerEvent: {}
+[0.915854] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.921153] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.929017] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.941365] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.955995] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.000595] (-) TimerEvent: {}
+[1.100868] (-) TimerEvent: {}
+[1.201184] (-) TimerEvent: {}
+[1.301463] (-) TimerEvent: {}
+[1.401730] (-) TimerEvent: {}
+[1.502006] (-) TimerEvent: {}
+[1.584215] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.587884] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.602086] (-) TimerEvent: {}
+[1.612074] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.640552] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.643253] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.702226] (-) TimerEvent: {}
+[1.705645] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.708006] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.712573] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.744519] (gazebo_ros2_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.753456] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.802305] (-) TimerEvent: {}
+[1.821680] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.821864] (gazebo_ros2_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.885798] (gazebo_ros2_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.886721] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.902415] (-) TimerEvent: {}
+[1.958931] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found control_toolbox: 3.6.0 (/opt/ros/humble/share/control_toolbox/cmake)\n'}
+[1.991457] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_dev: 3.9.0 (/opt/ros/humble/share/gazebo_dev/cmake)\n'}
+[2.002211] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[2.002483] (-) TimerEvent: {}
+[2.002909] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[2.011490] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[2.076417] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[2.100775] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[2.102598] (-) TimerEvent: {}
+[2.124096] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[2.147078] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[2.202811] (-) TimerEvent: {}
+[2.298174] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[2.302906] (-) TimerEvent: {}
+[2.304003] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.312341] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.313929] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.314228] (gazebo_ros2_control) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[2.317154] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[2.323730] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.340489] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.403104] (-) TimerEvent: {}
+[2.484226] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.490315] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.503176] (-) TimerEvent: {}
+[2.603416] (-) TimerEvent: {}
+[2.616852] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.616972] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.703518] (-) TimerEvent: {}
+[2.751982] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.752110] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.803611] (-) TimerEvent: {}
+[2.890899] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.891037] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.903701] (-) TimerEvent: {}
+[3.003966] (-) TimerEvent: {}
+[3.025061] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[3.025180] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[3.104065] (-) TimerEvent: {}
+[3.157037] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[3.157163] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[3.204200] (-) TimerEvent: {}
+[3.295367] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[3.304287] (-) TimerEvent: {}
+[3.404517] (-) TimerEvent: {}
+[3.504783] (-) TimerEvent: {}
+[3.605032] (-) TimerEvent: {}
+[3.705385] (-) TimerEvent: {}
+[3.805651] (-) TimerEvent: {}
+[3.905913] (-) TimerEvent: {}
+[4.006146] (-) TimerEvent: {}
+[4.106374] (-) TimerEvent: {}
+[4.206620] (-) TimerEvent: {}
+[4.306872] (-) TimerEvent: {}
+[4.407129] (-) TimerEvent: {}
+[4.507412] (-) TimerEvent: {}
+[4.607664] (-) TimerEvent: {}
+[4.707948] (-) TimerEvent: {}
+[4.808225] (-) TimerEvent: {}
+[4.908479] (-) TimerEvent: {}
+[5.008734] (-) TimerEvent: {}
+[5.108986] (-) TimerEvent: {}
+[5.209320] (-) TimerEvent: {}
+[5.309586] (-) TimerEvent: {}
+[5.409838] (-) TimerEvent: {}
+[5.510125] (-) TimerEvent: {}
+[5.610475] (-) TimerEvent: {}
+[5.710731] (-) TimerEvent: {}
+[5.810973] (-) TimerEvent: {}
+[5.911270] (-) TimerEvent: {}
+[6.011530] (-) TimerEvent: {}
+[6.111800] (-) TimerEvent: {}
+[6.212084] (-) TimerEvent: {}
+[6.312354] (-) TimerEvent: {}
+[6.412635] (-) TimerEvent: {}
+[6.512920] (-) TimerEvent: {}
+[6.613212] (-) TimerEvent: {}
+[6.713486] (-) TimerEvent: {}
+[6.813771] (-) TimerEvent: {}
+[6.914039] (-) TimerEvent: {}
+[7.014332] (-) TimerEvent: {}
+[7.114590] (-) TimerEvent: {}
+[7.214847] (-) TimerEvent: {}
+[7.315089] (-) TimerEvent: {}
+[7.415365] (-) TimerEvent: {}
+[7.515645] (-) TimerEvent: {}
+[7.616004] (-) TimerEvent: {}
+[7.716260] (-) TimerEvent: {}
+[7.816508] (-) TimerEvent: {}
+[7.916830] (-) TimerEvent: {}
+[8.017097] (-) TimerEvent: {}
+[8.117368] (-) TimerEvent: {}
+[8.217614] (-) TimerEvent: {}
+[8.317876] (-) TimerEvent: {}
+[8.418159] (-) TimerEvent: {}
+[8.518409] (-) TimerEvent: {}
+[8.618698] (-) TimerEvent: {}
+[8.718967] (-) TimerEvent: {}
+[8.819274] (-) TimerEvent: {}
+[8.919645] (-) TimerEvent: {}
+[9.019904] (-) TimerEvent: {}
+[9.120161] (-) TimerEvent: {}
+[9.220445] (-) TimerEvent: {}
+[9.320722] (-) TimerEvent: {}
+[9.420979] (-) TimerEvent: {}
+[9.521255] (-) TimerEvent: {}
+[9.621522] (-) TimerEvent: {}
+[9.721785] (-) TimerEvent: {}
+[9.822060] (-) TimerEvent: {}
+[9.922388] (-) TimerEvent: {}
+[10.022651] (-) TimerEvent: {}
+[10.122933] (-) TimerEvent: {}
+[10.183030] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[10.186171] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[10.186425] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[10.223016] (-) TimerEvent: {}
+[10.323285] (-) TimerEvent: {}
+[10.423545] (-) TimerEvent: {}
+[10.523811] (-) TimerEvent: {}
+[10.624070] (-) TimerEvent: {}
+[10.645225] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[10.724185] (-) TimerEvent: {}
+[10.824440] (-) TimerEvent: {}
+[10.924690] (-) TimerEvent: {}
+[11.024946] (-) TimerEvent: {}
+[11.081930] (gazebo_ros2_control) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[11.084940] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[11.094228] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[11.109774] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[11.125018] (-) TimerEvent: {}
+[11.125834] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[11.132978] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[11.147328] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[11.149881] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[11.150126] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[11.225117] (-) TimerEvent: {}
+[11.325365] (-) TimerEvent: {}
+[11.425642] (-) TimerEvent: {}
+[11.525946] (-) TimerEvent: {}
+[11.598707] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[11.602095] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[11.609094] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[11.625342] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[11.626150] (-) TimerEvent: {}
+[11.628037] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[11.628285] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[11.642593] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[11.655307] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[11.656236] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[11.688925] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[11.689464] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[11.691667] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[11.691935] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[11.692150] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[11.694726] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[11.694956] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[11.726267] (-) TimerEvent: {}
+[11.826472] (-) TimerEvent: {}
+[11.926719] (-) TimerEvent: {}
+[12.026976] (-) TimerEvent: {}
+[12.127241] (-) TimerEvent: {}
+[12.221085] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[12.227396] (-) TimerEvent: {}
+[12.228148] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[12.234988] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[12.249795] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[12.253252] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[12.260017] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[12.274487] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[12.274805] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[12.275017] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[12.275257] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[12.279367] (gazebo_ros2_control) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[12.279517] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[12.286477] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[12.302815] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[12.307459] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)\n'}
+[12.327476] (-) TimerEvent: {}
+[12.345471] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[12.348554] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.409236] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[12.410028] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[12.410428] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/uav/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/include\n'}
+[12.410498] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[12.411233] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[12.411295] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[12.412035] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.413011] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[12.413061] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[12.413792] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.415389] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.427560] (-) TimerEvent: {}
+[12.507121] (gazebo_ros2_control) StdoutLine: {'line': b'-- Generating done\n'}
+[12.512622] (gazebo_ros2_control) StdoutLine: {'line': b'-- Build files have been written to: /home/uav/ros2_ws/build/gazebo_ros2_control\n'}
+[12.521544] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[12.522132] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'build'}
+[12.523009] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uav/ros2_ws/build/gazebo_ros2_control', '--', '-j20', '-l20'], 'cwd': '/home/uav/ros2_ws/build/gazebo_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'uav'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/uav/ros2_ws/install/uuv_world_ros_plugins/lib:/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs/lib:/home/uav/ros2_ws/install/uuv_world_plugins/lib:/home/uav/ros2_ws/install/uuv_thruster_manager/lib:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/uav/ros2_ws/install/uuv_gazebo_plugins/lib:/home/uav/ros2_ws/install/uuv_control_msgs/lib:/home/uav/ros2_ws/install/uuv_auv_control_allocator/lib:/home/uav/ros2_ws/install/fish_dvl_plugin/lib:/home/uav/hero/install/dvl_a50/lib:/home/uav/hero/install/dvl_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/uav'), ('OLDPWD', '/home/uav/ros2_ws/src/gazebo_ros2_control'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/uav/hero/install:/home/uav/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uav'), ('NAME', 'DESKTOP-8O5EOBH'), ('WSL_INTEROP', '/run/WSL/9998_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/uav/ros2_ws/install/plankton:/home/uav/ros2_ws/install/uuv_simulator:/home/uav/ros2_ws/install/uuv_world_ros_plugins:/home/uav/ros2_ws/install/uuv_tutorials:/home/uav/ros2_ws/install/uuv_tutorial_dp_controller:/home/uav/ros2_ws/install/uuv_tutorial_disturbances:/home/uav/ros2_ws/install/uuv_control_utils:/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_world_plugins:/home/uav/ros2_ws/install/uuv_tutorial_seabed_world:/home/uav/ros2_ws/install/uuv_trajectory_control:/home/uav/ros2_ws/install/uuv_teleop:/home/uav/ros2_ws/install/uuv_thruster_manager:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_worlds:/home/uav/ros2_ws/install/uuv_descriptions:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_plugins:/home/uav/ros2_ws/install/uuv_gazebo:/home/uav/ros2_ws/install/uuv_control_msgs:/home/uav/ros2_ws/install/uuv_control_cascaded_pid:/home/uav/ros2_ws/install/uuv_auv_control_allocator:/home/uav/ros2_ws/install/uuv_assistants:/home/uav/ros2_ws/install/plankton_utils:/home/uav/ros2_ws/install/fish_hpurv_description:/home/uav/ros2_ws/install/fish_hpurv:/home/uav/ros2_ws/install/fish_dvl_plugin:/home/uav/ros2_ws/install/butler:/home/uav/hero/install/dvl_a50:/home/uav/hero/install/dvl_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/uav/ros2_ws/build/gazebo_ros2_control'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_control_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_control_cascaded_pid/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_assistants/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/plankton_utils/local/lib/python3.10/dist-packages:/home/uav/hero/install/dvl_a50/local/lib/python3.10/dist-packages:/home/uav/hero/install/dvl_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/uav/ros2_ws/install/plankton:/home/uav/ros2_ws/install/uuv_simulator:/home/uav/ros2_ws/install/uuv_world_ros_plugins:/home/uav/ros2_ws/install/uuv_tutorials:/home/uav/ros2_ws/install/uuv_tutorial_dp_controller:/home/uav/ros2_ws/install/uuv_tutorial_disturbances:/home/uav/ros2_ws/install/uuv_control_utils:/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_world_plugins:/home/uav/ros2_ws/install/uuv_tutorial_seabed_world:/home/uav/ros2_ws/install/uuv_trajectory_control:/home/uav/ros2_ws/install/uuv_teleop:/home/uav/ros2_ws/install/uuv_thruster_manager:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_worlds:/home/uav/ros2_ws/install/uuv_descriptions:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_plugins:/home/uav/ros2_ws/install/uuv_gazebo:/home/uav/ros2_ws/install/uuv_control_msgs:/home/uav/ros2_ws/install/uuv_control_cascaded_pid:/home/uav/ros2_ws/install/uuv_auv_control_allocator:/home/uav/ros2_ws/install/uuv_assistants:/home/uav/ros2_ws/install/plankton_utils:/home/uav/ros2_ws/install/fish_hpurv_description:/home/uav/ros2_ws/install/fish_hpurv:/home/uav/ros2_ws/install/fish_dvl_plugin:/home/uav/ros2_ws/install/butler:/home/uav/hero/install/dvl_a50:/home/uav/hero/install/dvl_msgs:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[12.527669] (-) TimerEvent: {}
+[12.551143] (gazebo_ros2_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o\x1b[0m\n'}
+[12.551298] (gazebo_ros2_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o\x1b[0m\n'}
+[12.627798] (-) TimerEvent: {}
+[12.728128] (-) TimerEvent: {}
+[12.828397] (-) TimerEvent: {}
+[12.928665] (-) TimerEvent: {}
+[13.028945] (-) TimerEvent: {}
+[13.129230] (-) TimerEvent: {}
+[13.229506] (-) TimerEvent: {}
+[13.329765] (-) TimerEvent: {}
+[13.430075] (-) TimerEvent: {}
+[13.530368] (-) TimerEvent: {}
+[13.630670] (-) TimerEvent: {}
+[13.731044] (-) TimerEvent: {}
+[13.831467] (-) TimerEvent: {}
+[13.931886] (-) TimerEvent: {}
+[14.032207] (-) TimerEvent: {}
+[14.132486] (-) TimerEvent: {}
+[14.232852] (-) TimerEvent: {}
+[14.333229] (-) TimerEvent: {}
+[14.433591] (-) TimerEvent: {}
+[14.533992] (-) TimerEvent: {}
+[14.634372] (-) TimerEvent: {}
+[14.734747] (-) TimerEvent: {}
+[14.835131] (-) TimerEvent: {}
+[14.935505] (-) TimerEvent: {}
+[15.035964] (-) TimerEvent: {}
+[15.136384] (-) TimerEvent: {}
+[15.236727] (-) TimerEvent: {}
+[15.337044] (-) TimerEvent: {}
+[15.437359] (-) TimerEvent: {}
+[15.537669] (-) TimerEvent: {}
+[15.637985] (-) TimerEvent: {}
+[15.738294] (-) TimerEvent: {}
+[15.838625] (-) TimerEvent: {}
+[15.938952] (-) TimerEvent: {}
+[16.039257] (-) TimerEvent: {}
+[16.139533] (-) TimerEvent: {}
+[16.239850] (-) TimerEvent: {}
+[16.340170] (-) TimerEvent: {}
+[16.440493] (-) TimerEvent: {}
+[16.540861] (-) TimerEvent: {}
+[16.641292] (-) TimerEvent: {}
+[16.741646] (-) TimerEvent: {}
+[16.842072] (-) TimerEvent: {}
+[16.942395] (-) TimerEvent: {}
+[17.042717] (-) TimerEvent: {}
+[17.143040] (-) TimerEvent: {}
+[17.243465] (-) TimerEvent: {}
+[17.343826] (-) TimerEvent: {}
+[17.444259] (-) TimerEvent: {}
+[17.544592] (-) TimerEvent: {}
+[17.644987] (-) TimerEvent: {}
+[17.745500] (-) TimerEvent: {}
+[17.845845] (-) TimerEvent: {}
+[17.946231] (-) TimerEvent: {}
+[18.046609] (-) TimerEvent: {}
+[18.146984] (-) TimerEvent: {}
+[18.247373] (-) TimerEvent: {}
+[18.347785] (-) TimerEvent: {}
+[18.448132] (-) TimerEvent: {}
+[18.548435] (-) TimerEvent: {}
+[18.648773] (-) TimerEvent: {}
+[18.749256] (-) TimerEvent: {}
+[18.849630] (-) TimerEvent: {}
+[18.950011] (-) TimerEvent: {}
+[19.050439] (-) TimerEvent: {}
+[19.150827] (-) TimerEvent: {}
+[19.251202] (-) TimerEvent: {}
+[19.351546] (-) TimerEvent: {}
+[19.451894] (-) TimerEvent: {}
+[19.552325] (-) TimerEvent: {}
+[19.652709] (-) TimerEvent: {}
+[19.753022] (-) TimerEvent: {}
+[19.853312] (-) TimerEvent: {}
+[19.953639] (-) TimerEvent: {}
+[20.053955] (-) TimerEvent: {}
+[20.154335] (-) TimerEvent: {}
+[20.175278] (gazebo_ros2_control) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_hardware_plugins.so\x1b[0m\n'}
+[20.254546] (-) TimerEvent: {}
+[20.354815] (-) TimerEvent: {}
+[20.455097] (-) TimerEvent: {}
+[20.545377] (gazebo_ros2_control) StdoutLine: {'line': b'[ 75%] Built target gazebo_hardware_plugins\n'}
+[20.555274] (-) TimerEvent: {}
+[20.655572] (-) TimerEvent: {}
+[20.755958] (-) TimerEvent: {}
+[20.856253] (-) TimerEvent: {}
+[20.956583] (-) TimerEvent: {}
+[21.056885] (-) TimerEvent: {}
+[21.157225] (-) TimerEvent: {}
+[21.179613] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros2_control.so\x1b[0m\n'}
+[21.257418] (-) TimerEvent: {}
+[21.357823] (-) TimerEvent: {}
+[21.458104] (-) TimerEvent: {}
+[21.558425] (-) TimerEvent: {}
+[21.576972] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] Built target gazebo_ros2_control\n'}
+[21.582629] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[21.583296] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'install'}
+[21.587586] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/uav/ros2_ws/build/gazebo_ros2_control'], 'cwd': '/home/uav/ros2_ws/build/gazebo_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'uav'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/uav/ros2_ws/install/uuv_world_ros_plugins/lib:/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs/lib:/home/uav/ros2_ws/install/uuv_world_plugins/lib:/home/uav/ros2_ws/install/uuv_thruster_manager/lib:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/uav/ros2_ws/install/uuv_gazebo_plugins/lib:/home/uav/ros2_ws/install/uuv_control_msgs/lib:/home/uav/ros2_ws/install/uuv_auv_control_allocator/lib:/home/uav/ros2_ws/install/fish_dvl_plugin/lib:/home/uav/hero/install/dvl_a50/lib:/home/uav/hero/install/dvl_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/uav'), ('OLDPWD', '/home/uav/ros2_ws/src/gazebo_ros2_control'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/uav/hero/install:/home/uav/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uav'), ('NAME', 'DESKTOP-8O5EOBH'), ('WSL_INTEROP', '/run/WSL/9998_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/uav/ros2_ws/install/plankton:/home/uav/ros2_ws/install/uuv_simulator:/home/uav/ros2_ws/install/uuv_world_ros_plugins:/home/uav/ros2_ws/install/uuv_tutorials:/home/uav/ros2_ws/install/uuv_tutorial_dp_controller:/home/uav/ros2_ws/install/uuv_tutorial_disturbances:/home/uav/ros2_ws/install/uuv_control_utils:/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_world_plugins:/home/uav/ros2_ws/install/uuv_tutorial_seabed_world:/home/uav/ros2_ws/install/uuv_trajectory_control:/home/uav/ros2_ws/install/uuv_teleop:/home/uav/ros2_ws/install/uuv_thruster_manager:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_worlds:/home/uav/ros2_ws/install/uuv_descriptions:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_plugins:/home/uav/ros2_ws/install/uuv_gazebo:/home/uav/ros2_ws/install/uuv_control_msgs:/home/uav/ros2_ws/install/uuv_control_cascaded_pid:/home/uav/ros2_ws/install/uuv_auv_control_allocator:/home/uav/ros2_ws/install/uuv_assistants:/home/uav/ros2_ws/install/plankton_utils:/home/uav/ros2_ws/install/fish_hpurv_description:/home/uav/ros2_ws/install/fish_hpurv:/home/uav/ros2_ws/install/fish_dvl_plugin:/home/uav/ros2_ws/install/butler:/home/uav/hero/install/dvl_a50:/home/uav/hero/install/dvl_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/uav/ros2_ws/build/gazebo_ros2_control'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_control_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_control_cascaded_pid/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_assistants/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/plankton_utils/local/lib/python3.10/dist-packages:/home/uav/hero/install/dvl_a50/local/lib/python3.10/dist-packages:/home/uav/hero/install/dvl_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/uav/ros2_ws/install/plankton:/home/uav/ros2_ws/install/uuv_simulator:/home/uav/ros2_ws/install/uuv_world_ros_plugins:/home/uav/ros2_ws/install/uuv_tutorials:/home/uav/ros2_ws/install/uuv_tutorial_dp_controller:/home/uav/ros2_ws/install/uuv_tutorial_disturbances:/home/uav/ros2_ws/install/uuv_control_utils:/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_world_plugins:/home/uav/ros2_ws/install/uuv_tutorial_seabed_world:/home/uav/ros2_ws/install/uuv_trajectory_control:/home/uav/ros2_ws/install/uuv_teleop:/home/uav/ros2_ws/install/uuv_thruster_manager:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_worlds:/home/uav/ros2_ws/install/uuv_descriptions:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_plugins:/home/uav/ros2_ws/install/uuv_gazebo:/home/uav/ros2_ws/install/uuv_control_msgs:/home/uav/ros2_ws/install/uuv_control_cascaded_pid:/home/uav/ros2_ws/install/uuv_auv_control_allocator:/home/uav/ros2_ws/install/uuv_assistants:/home/uav/ros2_ws/install/plankton_utils:/home/uav/ros2_ws/install/fish_hpurv_description:/home/uav/ros2_ws/install/fish_hpurv:/home/uav/ros2_ws/install/fish_dvl_plugin:/home/uav/ros2_ws/install/butler:/home/uav/hero/install/dvl_a50:/home/uav/hero/install/dvl_msgs:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[21.591338] (gazebo_ros2_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.591468] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so\n'}
+[21.592966] (gazebo_ros2_control) StdoutLine: {'line': b'-- Set runtime path of "/home/uav/ros2_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so" to ""\n'}
+[21.593018] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so\n'}
+[21.594118] (gazebo_ros2_control) StdoutLine: {'line': b'-- Set runtime path of "/home/uav/ros2_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so" to ""\n'}
+[21.594311] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh\n'}
+[21.594392] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv\n'}
+[21.594469] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/include/gazebo_ros2_control\n'}
+[21.594565] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp\n'}
+[21.594683] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp\n'}
+[21.594753] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp\n'}
+[21.594860] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/gazebo_hardware_plugins.xml\n'}
+[21.594949] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control\n'}
+[21.595021] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control\n'}
+[21.595102] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh\n'}
+[21.595163] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv\n'}
+[21.595249] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh\n'}
+[21.595303] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv\n'}
+[21.595368] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash\n'}
+[21.595448] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh\n'}
+[21.595503] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh\n'}
+[21.595628] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv\n'}
+[21.595665] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv\n'}
+[21.595759] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control\n'}
+[21.595820] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control\n'}
+[21.596139] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[21.596247] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[21.596307] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[21.596390] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake\n'}
+[21.596493] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake\n'}
+[21.596598] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml\n'}
+[21.597583] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[21.610029] (gazebo_ros2_control) JobEnded: {'identifier': 'gazebo_ros2_control', 'rc': 0}
+[21.610799] (-) EventReactorShutdown: {}

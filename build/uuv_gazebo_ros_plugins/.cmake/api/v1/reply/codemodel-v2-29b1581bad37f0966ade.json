@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-2b9aad27e8f7d2a52f3e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "uuv_gazebo_ros_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_battery_consumer_ros_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_battery_consumer_ros_plugin-Release-16bfc58e558181e02def.json",
+					"name" : "custom_battery_consumer_ros_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "linear_battery_ros_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-linear_battery_ros_plugin-Release-1af5fc55ec7e2a0e0e2b.json",
+					"name" : "linear_battery_ros_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-c523c40cd344d68def47.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_accelerations_test_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_accelerations_test_plugin-Release-cad95908d50b7742dee9.json",
+					"name" : "uuv_accelerations_test_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_fin_ros_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_fin_ros_plugin-Release-6f16b25ee1e3e1f1a317.json",
+					"name" : "uuv_fin_ros_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_plugins_uninstall-Release-524c56428e427c6e62f2.json",
+					"name" : "uuv_gazebo_ros_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_joint_state_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_joint_state_publisher-Release-5df23c4e32dafff24692.json",
+					"name" : "uuv_joint_state_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_thruster_ros_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_thruster_ros_plugin-Release-29691cb8f2106b8d0770.json",
+					"name" : "uuv_thruster_ros_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_underwater_object_ros_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_underwater_object_ros_plugin-Release-8e7549643372b68af79a.json",
+					"name" : "uuv_underwater_object_ros_plugin",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/uav/ros2_ws/build/uuv_gazebo_ros_plugins",
+		"source" : "/home/uav/ros2_ws/src/Plankton/uuv_gazebo_plugins/uuv_gazebo_ros_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

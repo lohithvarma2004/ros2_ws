@@ -1,0 +1,18 @@
+{
+  "package_name": "uuv_gazebo_ros_plugins_msgs",
+  "non_idl_tuples": [
+    "/home/uav/ros2_ws/src/Plankton/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs:msg/FloatStamped.msg",
+    "/home/uav/ros2_ws/src/Plankton/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs:msg/UnderwaterObjectModel.msg",
+    "/home/uav/ros2_ws/src/Plankton/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs:msg/ThrusterConversionFcn.msg",
+    "/home/uav/ros2_ws/src/Plankton/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs:srv/SetThrusterEfficiency.srv",
+    "/home/uav/ros2_ws/src/Plankton/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs:srv/SetThrusterState.srv",
+    "/home/uav/ros2_ws/src/Plankton/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs:srv/GetThrusterEfficiency.srv",
+    "/home/uav/ros2_ws/src/Plankton/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs:srv/GetThrusterState.srv",
+    "/home/uav/ros2_ws/src/Plankton/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs:srv/SetUseGlobalCurrentVel.srv",
+    "/home/uav/ros2_ws/src/Plankton/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs:srv/GetModelProperties.srv",
+    "/home/uav/ros2_ws/src/Plankton/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs:srv/SetFloat.srv",
+    "/home/uav/ros2_ws/src/Plankton/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs:srv/GetFloat.srv",
+    "/home/uav/ros2_ws/src/Plankton/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs:srv/GetListParam.srv",
+    "/home/uav/ros2_ws/src/Plankton/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs:srv/GetThrusterConversionFcn.srv"
+  ]
+}

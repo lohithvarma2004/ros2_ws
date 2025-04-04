@@ -1,0 +1,63 @@
+[0.015s] Invoking command in '/home/uav/ros2_ws/build/fish_hpurv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/uav/ros2_ws/build/fish_hpurv -- -j20 -l20
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/joint_publisher.dir/scripts/joint_publisher.cpp.o[0m
+[2.773s] [100%] [32m[1mLinking CXX executable joint_publisher[0m
+[2.949s] [100%] Built target joint_publisher
+[2.955s] Invoked command in '/home/uav/ros2_ws/build/fish_hpurv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/uav/ros2_ws/build/fish_hpurv -- -j20 -l20
+[2.961s] Invoking command in '/home/uav/ros2_ws/build/fish_hpurv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/uav/ros2_ws/build/fish_hpurv
+[2.965s] -- Install configuration: ""
+[2.966s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/launch
+[2.966s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/launch/display.launch.py
+[2.966s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/launch/display1.launch.py
+[2.966s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/urdf
+[2.967s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/urdf/fish.urdf
+[2.967s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/urdf/fish_hpurv_macro.urdf.xacro
+[2.967s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/config
+[2.967s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/config/my_controllers.yaml
+[2.967s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/config/display.rviz
+[2.967s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes
+[2.967s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_pectoral_left.part
+[2.967s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_pectoral_right.stl
+[2.968s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_base.stl
+[2.968s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_base.part
+[2.968s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_pectoral_left.stl
+[2.968s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_caudal.part
+[2.968s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_pectoral_right.part
+[2.968s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_caudal.stl
+[2.968s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/worlds
+[2.968s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/worlds/room.sdf
+[2.968s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/worlds/ocean.world
+[2.968s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/worlds/fish_world.world
+[2.968s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models
+[2.968s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv
+[2.968s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/fish.sdf
+[2.968s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes
+[2.968s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_pectoral_left.part
+[2.968s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_pectoral_right.stl
+[2.968s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_base.stl
+[2.968s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_base.part
+[2.968s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_pectoral_left.stl
+[2.969s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_caudal.part
+[2.969s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_pectoral_right.part
+[2.969s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_caudal.stl
+[2.969s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/model.config
+[2.969s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/urdf
+[2.969s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/urdf/fish_hpurv_macro.urdf.xacro
+[2.970s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/lib/fish_hpurv/joint_publisher
+[2.971s] -- Set runtime path of "/home/uav/ros2_ws/install/fish_hpurv/lib/fish_hpurv/joint_publisher" to ""
+[2.971s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/ament_index/resource_index/package_run_dependencies/fish_hpurv
+[2.972s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/ament_index/resource_index/parent_prefix_path/fish_hpurv
+[2.972s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/environment/ament_prefix_path.sh
+[2.972s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/environment/ament_prefix_path.dsv
+[2.972s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/environment/path.sh
+[2.972s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/environment/path.dsv
+[2.972s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/local_setup.bash
+[2.972s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/local_setup.sh
+[2.972s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/local_setup.zsh
+[2.972s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/local_setup.dsv
+[2.972s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/package.dsv
+[2.972s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/ament_index/resource_index/packages/fish_hpurv
+[2.972s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.972s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/cmake/fish_hpurvConfig.cmake
+[2.972s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/cmake/fish_hpurvConfig-version.cmake
+[2.972s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/package.xml
+[2.974s] Invoked command in '/home/uav/ros2_ws/build/fish_hpurv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/uav/ros2_ws/build/fish_hpurv

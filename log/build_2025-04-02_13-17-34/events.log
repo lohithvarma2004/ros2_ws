@@ -1,0 +1,342 @@
+[0.000000] (-) TimerEvent: {}
+[0.000257] (-) JobUnselected: {'identifier': 'butler'}
+[0.000291] (-) JobUnselected: {'identifier': 'fish_dvl_plugin'}
+[0.000314] (-) JobUnselected: {'identifier': 'plankton'}
+[0.000364] (-) JobUnselected: {'identifier': 'plankton_utils'}
+[0.000373] (-) JobUnselected: {'identifier': 'uuv_assistants'}
+[0.000381] (-) JobUnselected: {'identifier': 'uuv_auv_control_allocator'}
+[0.000388] (-) JobUnselected: {'identifier': 'uuv_control_cascaded_pid'}
+[0.000394] (-) JobUnselected: {'identifier': 'uuv_control_msgs'}
+[0.000400] (-) JobUnselected: {'identifier': 'uuv_control_utils'}
+[0.000407] (-) JobUnselected: {'identifier': 'uuv_descriptions'}
+[0.000413] (-) JobUnselected: {'identifier': 'uuv_gazebo'}
+[0.000420] (-) JobUnselected: {'identifier': 'uuv_gazebo_plugins'}
+[0.000426] (-) JobUnselected: {'identifier': 'uuv_gazebo_ros_plugins'}
+[0.000435] (-) JobUnselected: {'identifier': 'uuv_gazebo_ros_plugins_msgs'}
+[0.000442] (-) JobUnselected: {'identifier': 'uuv_gazebo_worlds'}
+[0.000448] (-) JobUnselected: {'identifier': 'uuv_sensor_ros_plugins'}
+[0.000469] (-) JobUnselected: {'identifier': 'uuv_sensor_ros_plugins_msgs'}
+[0.000477] (-) JobUnselected: {'identifier': 'uuv_simulator'}
+[0.000484] (-) JobUnselected: {'identifier': 'uuv_teleop'}
+[0.000495] (-) JobUnselected: {'identifier': 'uuv_thruster_manager'}
+[0.000501] (-) JobUnselected: {'identifier': 'uuv_trajectory_control'}
+[0.000511] (-) JobUnselected: {'identifier': 'uuv_tutorial_disturbances'}
+[0.000517] (-) JobUnselected: {'identifier': 'uuv_tutorial_dp_controller'}
+[0.000523] (-) JobUnselected: {'identifier': 'uuv_tutorial_seabed_world'}
+[0.000543] (-) JobUnselected: {'identifier': 'uuv_tutorials'}
+[0.000564] (-) JobUnselected: {'identifier': 'uuv_world_plugins'}
+[0.000573] (-) JobUnselected: {'identifier': 'uuv_world_ros_plugins'}
+[0.000579] (-) JobUnselected: {'identifier': 'uuv_world_ros_plugins_msgs'}
+[0.000587] (fish_hpurv) JobQueued: {'identifier': 'fish_hpurv', 'dependencies': OrderedDict()}
+[0.000597] (fish_hpurv) JobStarted: {'identifier': 'fish_hpurv'}
+[0.005879] (fish_hpurv) JobProgress: {'identifier': 'fish_hpurv', 'progress': 'cmake'}
+[0.006350] (fish_hpurv) JobProgress: {'identifier': 'fish_hpurv', 'progress': 'build'}
+[0.007105] (fish_hpurv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uav/ros2_ws/build/fish_hpurv', '--', '-j20', '-l20'], 'cwd': '/home/uav/ros2_ws/build/fish_hpurv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'uav'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/uav/ros2_ws/install/uuv_world_ros_plugins/lib:/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs/lib:/home/uav/ros2_ws/install/uuv_world_plugins/lib:/home/uav/ros2_ws/install/uuv_thruster_manager/lib:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/uav/ros2_ws/install/uuv_gazebo_plugins/lib:/home/uav/ros2_ws/install/uuv_control_msgs/lib:/home/uav/ros2_ws/install/uuv_auv_control_allocator/lib:/home/uav/ros2_ws/install/gazebo_ros2_control/lib:/home/uav/ros2_ws/install/fish_dvl_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/uav'), ('OLDPWD', '/home/uav/ros2_ws/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/uav/hero/install:/home/uav/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uav'), ('NAME', 'DESKTOP-8O5EOBH'), ('WSL_INTEROP', '/run/WSL/375_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/uav/ros2_ws/install/plankton:/home/uav/ros2_ws/install/uuv_simulator:/home/uav/ros2_ws/install/uuv_world_ros_plugins:/home/uav/ros2_ws/install/uuv_tutorials:/home/uav/ros2_ws/install/uuv_tutorial_dp_controller:/home/uav/ros2_ws/install/uuv_tutorial_disturbances:/home/uav/ros2_ws/install/uuv_control_utils:/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_world_plugins:/home/uav/ros2_ws/install/uuv_tutorial_seabed_world:/home/uav/ros2_ws/install/uuv_trajectory_control:/home/uav/ros2_ws/install/uuv_teleop:/home/uav/ros2_ws/install/uuv_thruster_manager:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_worlds:/home/uav/ros2_ws/install/uuv_descriptions:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_plugins:/home/uav/ros2_ws/install/uuv_gazebo:/home/uav/ros2_ws/install/uuv_control_msgs:/home/uav/ros2_ws/install/uuv_control_cascaded_pid:/home/uav/ros2_ws/install/uuv_auv_control_allocator:/home/uav/ros2_ws/install/uuv_assistants:/home/uav/ros2_ws/install/plankton_utils:/home/uav/ros2_ws/install/fish_hpurv_description:/home/uav/ros2_ws/install/fish_hpurv:/home/uav/ros2_ws/install/gazebo_ros2_control:/home/uav/ros2_ws/install/fish_dvl_plugin:/home/uav/ros2_ws/install/butler:/home/uav/hero/install/four_wheel_mobile_robot_navigation:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/uav/ros2_ws/build/fish_hpurv'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_control_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_control_cascaded_pid/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_assistants/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/plankton_utils/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/uav/ros2_ws/install/plankton:/home/uav/ros2_ws/install/uuv_simulator:/home/uav/ros2_ws/install/uuv_world_ros_plugins:/home/uav/ros2_ws/install/uuv_tutorials:/home/uav/ros2_ws/install/uuv_tutorial_dp_controller:/home/uav/ros2_ws/install/uuv_tutorial_disturbances:/home/uav/ros2_ws/install/uuv_control_utils:/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_world_plugins:/home/uav/ros2_ws/install/uuv_tutorial_seabed_world:/home/uav/ros2_ws/install/uuv_trajectory_control:/home/uav/ros2_ws/install/uuv_teleop:/home/uav/ros2_ws/install/uuv_thruster_manager:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_worlds:/home/uav/ros2_ws/install/uuv_descriptions:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_plugins:/home/uav/ros2_ws/install/uuv_gazebo:/home/uav/ros2_ws/install/uuv_control_msgs:/home/uav/ros2_ws/install/uuv_control_cascaded_pid:/home/uav/ros2_ws/install/uuv_auv_control_allocator:/home/uav/ros2_ws/install/uuv_assistants:/home/uav/ros2_ws/install/plankton_utils:/home/uav/ros2_ws/install/fish_hpurv_description:/home/uav/ros2_ws/install/fish_hpurv:/home/uav/ros2_ws/install/gazebo_ros2_control:/home/uav/ros2_ws/install/fish_dvl_plugin:/home/uav/ros2_ws/install/butler:/home/uav/hero/install/four_wheel_mobile_robot_navigation:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.028465] (fish_hpurv) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099526] (-) TimerEvent: {}
+[0.119705] (fish_hpurv) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[0.200391] (-) TimerEvent: {}
+[0.215406] (fish_hpurv) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.217769] (fish_hpurv) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.224297] (fish_hpurv) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.232931] (fish_hpurv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.243933] (fish_hpurv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.272579] (fish_hpurv) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.274714] (fish_hpurv) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.301017] (-) TimerEvent: {}
+[0.403080] (-) TimerEvent: {}
+[0.505081] (-) TimerEvent: {}
+[0.607082] (-) TimerEvent: {}
+[0.709122] (-) TimerEvent: {}
+[0.810493] (-) TimerEvent: {}
+[0.912517] (-) TimerEvent: {}
+[1.014525] (-) TimerEvent: {}
+[1.116565] (-) TimerEvent: {}
+[1.218496] (-) TimerEvent: {}
+[1.320544] (-) TimerEvent: {}
+[1.422547] (-) TimerEvent: {}
+[1.524575] (-) TimerEvent: {}
+[1.626577] (-) TimerEvent: {}
+[1.728571] (-) TimerEvent: {}
+[1.830619] (-) TimerEvent: {}
+[1.932618] (-) TimerEvent: {}
+[2.034636] (-) TimerEvent: {}
+[2.136655] (-) TimerEvent: {}
+[2.238568] (-) TimerEvent: {}
+[2.340673] (-) TimerEvent: {}
+[2.388471] (fish_hpurv) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.441676] (-) TimerEvent: {}
+[2.450462] (fish_hpurv) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[2.480692] (fish_hpurv) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[2.482868] (fish_hpurv) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.487750] (fish_hpurv) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.489139] (fish_hpurv) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.492691] (fish_hpurv) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.493084] (fish_hpurv) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.498829] (fish_hpurv) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.499053] (fish_hpurv) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.499137] (fish_hpurv) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.499180] (fish_hpurv) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.499230] (fish_hpurv) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.499257] (fish_hpurv) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.499354] (fish_hpurv) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.499384] (fish_hpurv) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.499410] (fish_hpurv) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.499435] (fish_hpurv) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.499460] (fish_hpurv) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.499485] (fish_hpurv) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.542488] (-) TimerEvent: {}
+[2.644439] (-) TimerEvent: {}
+[2.746474] (-) TimerEvent: {}
+[2.848526] (-) TimerEvent: {}
+[2.950109] (-) TimerEvent: {}
+[3.052129] (-) TimerEvent: {}
+[3.154129] (-) TimerEvent: {}
+[3.256016] (-) TimerEvent: {}
+[3.358008] (-) TimerEvent: {}
+[3.459998] (-) TimerEvent: {}
+[3.562008] (-) TimerEvent: {}
+[3.664013] (-) TimerEvent: {}
+[3.766040] (-) TimerEvent: {}
+[3.868045] (-) TimerEvent: {}
+[3.970078] (-) TimerEvent: {}
+[4.072084] (-) TimerEvent: {}
+[4.174090] (-) TimerEvent: {}
+[4.275949] (-) TimerEvent: {}
+[4.377955] (-) TimerEvent: {}
+[4.480119] (-) TimerEvent: {}
+[4.582324] (-) TimerEvent: {}
+[4.684512] (-) TimerEvent: {}
+[4.786681] (-) TimerEvent: {}
+[4.888888] (-) TimerEvent: {}
+[4.991079] (-) TimerEvent: {}
+[5.093255] (-) TimerEvent: {}
+[5.195422] (-) TimerEvent: {}
+[5.297598] (-) TimerEvent: {}
+[5.399812] (-) TimerEvent: {}
+[5.502022] (-) TimerEvent: {}
+[5.604209] (-) TimerEvent: {}
+[5.704921] (-) TimerEvent: {}
+[5.807154] (-) TimerEvent: {}
+[5.909328] (-) TimerEvent: {}
+[6.011496] (-) TimerEvent: {}
+[6.113774] (-) TimerEvent: {}
+[6.216112] (-) TimerEvent: {}
+[6.318191] (-) TimerEvent: {}
+[6.420375] (-) TimerEvent: {}
+[6.522545] (-) TimerEvent: {}
+[6.624733] (-) TimerEvent: {}
+[6.726912] (-) TimerEvent: {}
+[6.829090] (-) TimerEvent: {}
+[6.931269] (-) TimerEvent: {}
+[7.033449] (-) TimerEvent: {}
+[7.135637] (-) TimerEvent: {}
+[7.237815] (-) TimerEvent: {}
+[7.339918] (-) TimerEvent: {}
+[7.442128] (-) TimerEvent: {}
+[7.544329] (-) TimerEvent: {}
+[7.645464] (-) TimerEvent: {}
+[7.747631] (-) TimerEvent: {}
+[7.849806] (-) TimerEvent: {}
+[7.952004] (-) TimerEvent: {}
+[8.054228] (-) TimerEvent: {}
+[8.156412] (-) TimerEvent: {}
+[8.258608] (-) TimerEvent: {}
+[8.360722] (-) TimerEvent: {}
+[8.462908] (-) TimerEvent: {}
+[8.565103] (-) TimerEvent: {}
+[8.667292] (-) TimerEvent: {}
+[8.769525] (-) TimerEvent: {}
+[8.871716] (-) TimerEvent: {}
+[8.974126] (-) TimerEvent: {}
+[9.076341] (-) TimerEvent: {}
+[9.178579] (-) TimerEvent: {}
+[9.280872] (-) TimerEvent: {}
+[9.383000] (-) TimerEvent: {}
+[9.485227] (-) TimerEvent: {}
+[9.587434] (-) TimerEvent: {}
+[9.689659] (-) TimerEvent: {}
+[9.791877] (-) TimerEvent: {}
+[9.894101] (-) TimerEvent: {}
+[9.994462] (-) TimerEvent: {}
+[10.096689] (-) TimerEvent: {}
+[10.198901] (-) TimerEvent: {}
+[10.301123] (-) TimerEvent: {}
+[10.403354] (-) TimerEvent: {}
+[10.505188] (-) TimerEvent: {}
+[10.607389] (-) TimerEvent: {}
+[10.709616] (-) TimerEvent: {}
+[10.811815] (-) TimerEvent: {}
+[10.914027] (-) TimerEvent: {}
+[11.016247] (-) TimerEvent: {}
+[11.103957] (fish_hpurv) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[11.104842] (fish_hpurv) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[11.105154] (fish_hpurv) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[11.116549] (-) TimerEvent: {}
+[11.218775] (-) TimerEvent: {}
+[11.321016] (-) TimerEvent: {}
+[11.423206] (-) TimerEvent: {}
+[11.525442] (-) TimerEvent: {}
+[11.627545] (-) TimerEvent: {}
+[11.666657] (fish_hpurv) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[11.728531] (-) TimerEvent: {}
+[11.830796] (-) TimerEvent: {}
+[11.932989] (-) TimerEvent: {}
+[12.035166] (-) TimerEvent: {}
+[12.137398] (-) TimerEvent: {}
+[12.172324] (fish_hpurv) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[12.175189] (fish_hpurv) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[12.183044] (fish_hpurv) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[12.202298] (fish_hpurv) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[12.208876] (fish_hpurv) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[12.223856] (fish_hpurv) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[12.224095] (fish_hpurv) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[12.237682] (-) TimerEvent: {}
+[12.338021] (-) TimerEvent: {}
+[12.440185] (-) TimerEvent: {}
+[12.542834] (-) TimerEvent: {}
+[12.645281] (-) TimerEvent: {}
+[12.730161] (fish_hpurv) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[12.733452] (fish_hpurv) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[12.740412] (fish_hpurv) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[12.745494] (-) TimerEvent: {}
+[12.756126] (fish_hpurv) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[12.756759] (fish_hpurv) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[12.756966] (fish_hpurv) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[12.757270] (fish_hpurv) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[12.757316] (fish_hpurv) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[12.796095] (fish_hpurv) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[12.796742] (fish_hpurv) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[12.797021] (fish_hpurv) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[12.797267] (fish_hpurv) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[12.798966] (fish_hpurv) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[12.799252] (fish_hpurv) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[12.846706] (-) TimerEvent: {}
+[12.949345] (-) TimerEvent: {}
+[13.052058] (-) TimerEvent: {}
+[13.153147] (-) TimerEvent: {}
+[13.255776] (-) TimerEvent: {}
+[13.358431] (-) TimerEvent: {}
+[13.461073] (-) TimerEvent: {}
+[13.500793] (fish_hpurv) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[13.507908] (fish_hpurv) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[13.526133] (fish_hpurv) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[13.533501] (fish_hpurv) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[13.548068] (fish_hpurv) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[13.548307] (fish_hpurv) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[13.548532] (fish_hpurv) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[13.550947] (fish_hpurv) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[13.552085] (fish_hpurv) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[13.553051] (fish_hpurv) StdoutLine: {'line': b'-- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)\n'}
+[13.561335] (-) TimerEvent: {}
+[13.577221] (fish_hpurv) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[13.631026] (fish_hpurv) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[13.632847] (fish_hpurv) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[13.632928] (fish_hpurv) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[13.632957] (fish_hpurv) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[13.634250] (fish_hpurv) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[13.634292] (fish_hpurv) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[13.634718] (fish_hpurv) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[13.635399] (fish_hpurv) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.635929] (fish_hpurv) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[13.637298] (fish_hpurv) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[13.637360] (fish_hpurv) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[13.637791] (fish_hpurv) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.639171] (fish_hpurv) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.649429] (fish_hpurv) StdoutLine: {'line': b'-- Generating done\n'}
+[13.651986] (fish_hpurv) StdoutLine: {'line': b'-- Build files have been written to: /home/uav/ros2_ws/build/fish_hpurv\n'}
+[13.661696] (-) TimerEvent: {}
+[13.668942] (fish_hpurv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target joint_publisher\x1b[0m\n'}
+[13.677463] (fish_hpurv) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/joint_publisher.dir/scripts/joint_publisher.cpp.o\x1b[0m\n'}
+[13.763800] (-) TimerEvent: {}
+[13.866481] (-) TimerEvent: {}
+[13.969113] (-) TimerEvent: {}
+[14.071795] (-) TimerEvent: {}
+[14.174568] (-) TimerEvent: {}
+[14.277214] (-) TimerEvent: {}
+[14.379901] (-) TimerEvent: {}
+[14.482648] (-) TimerEvent: {}
+[14.583697] (-) TimerEvent: {}
+[14.686377] (-) TimerEvent: {}
+[14.789070] (-) TimerEvent: {}
+[14.891728] (-) TimerEvent: {}
+[14.994414] (-) TimerEvent: {}
+[15.097107] (-) TimerEvent: {}
+[15.199793] (-) TimerEvent: {}
+[15.302448] (-) TimerEvent: {}
+[15.405139] (-) TimerEvent: {}
+[15.507919] (-) TimerEvent: {}
+[15.608573] (-) TimerEvent: {}
+[15.711209] (-) TimerEvent: {}
+[15.813849] (-) TimerEvent: {}
+[15.916506] (-) TimerEvent: {}
+[16.019157] (-) TimerEvent: {}
+[16.121817] (-) TimerEvent: {}
+[16.224537] (-) TimerEvent: {}
+[16.327299] (-) TimerEvent: {}
+[16.329413] (fish_hpurv) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable joint_publisher\x1b[0m\n'}
+[16.429749] (-) TimerEvent: {}
+[16.499333] (fish_hpurv) StdoutLine: {'line': b'[100%] Built target joint_publisher\n'}
+[16.505358] (fish_hpurv) CommandEnded: {'returncode': 0}
+[16.505776] (fish_hpurv) JobProgress: {'identifier': 'fish_hpurv', 'progress': 'install'}
+[16.510198] (fish_hpurv) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/uav/ros2_ws/build/fish_hpurv'], 'cwd': '/home/uav/ros2_ws/build/fish_hpurv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'uav'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/uav/ros2_ws/install/uuv_world_ros_plugins/lib:/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs/lib:/home/uav/ros2_ws/install/uuv_world_plugins/lib:/home/uav/ros2_ws/install/uuv_thruster_manager/lib:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/uav/ros2_ws/install/uuv_gazebo_plugins/lib:/home/uav/ros2_ws/install/uuv_control_msgs/lib:/home/uav/ros2_ws/install/uuv_auv_control_allocator/lib:/home/uav/ros2_ws/install/gazebo_ros2_control/lib:/home/uav/ros2_ws/install/fish_dvl_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/uav'), ('OLDPWD', '/home/uav/ros2_ws/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/uav/hero/install:/home/uav/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uav'), ('NAME', 'DESKTOP-8O5EOBH'), ('WSL_INTEROP', '/run/WSL/375_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/uav/ros2_ws/install/plankton:/home/uav/ros2_ws/install/uuv_simulator:/home/uav/ros2_ws/install/uuv_world_ros_plugins:/home/uav/ros2_ws/install/uuv_tutorials:/home/uav/ros2_ws/install/uuv_tutorial_dp_controller:/home/uav/ros2_ws/install/uuv_tutorial_disturbances:/home/uav/ros2_ws/install/uuv_control_utils:/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_world_plugins:/home/uav/ros2_ws/install/uuv_tutorial_seabed_world:/home/uav/ros2_ws/install/uuv_trajectory_control:/home/uav/ros2_ws/install/uuv_teleop:/home/uav/ros2_ws/install/uuv_thruster_manager:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_worlds:/home/uav/ros2_ws/install/uuv_descriptions:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_plugins:/home/uav/ros2_ws/install/uuv_gazebo:/home/uav/ros2_ws/install/uuv_control_msgs:/home/uav/ros2_ws/install/uuv_control_cascaded_pid:/home/uav/ros2_ws/install/uuv_auv_control_allocator:/home/uav/ros2_ws/install/uuv_assistants:/home/uav/ros2_ws/install/plankton_utils:/home/uav/ros2_ws/install/fish_hpurv_description:/home/uav/ros2_ws/install/fish_hpurv:/home/uav/ros2_ws/install/gazebo_ros2_control:/home/uav/ros2_ws/install/fish_dvl_plugin:/home/uav/ros2_ws/install/butler:/home/uav/hero/install/four_wheel_mobile_robot_navigation:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/uav/ros2_ws/build/fish_hpurv'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins/lib'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_control_msgs/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_control_cascaded_pid/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/uuv_assistants/local/lib/python3.10/dist-packages:/home/uav/ros2_ws/install/plankton_utils/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/uav/ros2_ws/install/plankton:/home/uav/ros2_ws/install/uuv_simulator:/home/uav/ros2_ws/install/uuv_world_ros_plugins:/home/uav/ros2_ws/install/uuv_tutorials:/home/uav/ros2_ws/install/uuv_tutorial_dp_controller:/home/uav/ros2_ws/install/uuv_tutorial_disturbances:/home/uav/ros2_ws/install/uuv_control_utils:/home/uav/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_world_plugins:/home/uav/ros2_ws/install/uuv_tutorial_seabed_world:/home/uav/ros2_ws/install/uuv_trajectory_control:/home/uav/ros2_ws/install/uuv_teleop:/home/uav/ros2_ws/install/uuv_thruster_manager:/home/uav/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_worlds:/home/uav/ros2_ws/install/uuv_descriptions:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins:/home/uav/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/uav/ros2_ws/install/uuv_gazebo_plugins:/home/uav/ros2_ws/install/uuv_gazebo:/home/uav/ros2_ws/install/uuv_control_msgs:/home/uav/ros2_ws/install/uuv_control_cascaded_pid:/home/uav/ros2_ws/install/uuv_auv_control_allocator:/home/uav/ros2_ws/install/uuv_assistants:/home/uav/ros2_ws/install/plankton_utils:/home/uav/ros2_ws/install/fish_hpurv_description:/home/uav/ros2_ws/install/fish_hpurv:/home/uav/ros2_ws/install/gazebo_ros2_control:/home/uav/ros2_ws/install/fish_dvl_plugin:/home/uav/ros2_ws/install/butler:/home/uav/hero/install/four_wheel_mobile_robot_navigation:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[16.514231] (fish_hpurv) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.514376] (fish_hpurv) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/launch\n'}
+[16.514416] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/launch/display.launch.py\n'}
+[16.514662] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/launch/display1.launch.py\n'}
+[16.514786] (fish_hpurv) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/urdf\n'}
+[16.514884] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/urdf/fish.urdf\n'}
+[16.514996] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/urdf/fish_hpurv_macro.urdf.xacro\n'}
+[16.515105] (fish_hpurv) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/config\n'}
+[16.515164] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/config/my_controllers.yaml\n'}
+[16.515346] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/config/display.rviz\n'}
+[16.515448] (fish_hpurv) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes\n'}
+[16.515501] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_pectoral_left.part\n'}
+[16.515769] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_pectoral_right.stl\n'}
+[16.515868] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_base.stl\n'}
+[16.516493] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_base.part\n'}
+[16.516563] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_pectoral_left.stl\n'}
+[16.516594] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_caudal.part\n'}
+[16.516691] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_pectoral_right.part\n'}
+[16.516839] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_caudal.stl\n'}
+[16.516882] (fish_hpurv) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/worlds\n'}
+[16.516910] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/worlds/room.sdf\n'}
+[16.516966] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/worlds/ocean.world\n'}
+[16.517087] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/worlds/fish_world.world\n'}
+[16.517132] (fish_hpurv) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models\n'}
+[16.517159] (fish_hpurv) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv\n'}
+[16.517185] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/fish.sdf\n'}
+[16.517438] (fish_hpurv) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes\n'}
+[16.517480] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_pectoral_left.part\n'}
+[16.517642] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_pectoral_right.stl\n'}
+[16.517851] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_base.stl\n'}
+[16.518097] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_base.part\n'}
+[16.518161] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_pectoral_left.stl\n'}
+[16.518362] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_caudal.part\n'}
+[16.518467] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_pectoral_right.part\n'}
+[16.518508] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_caudal.stl\n'}
+[16.518867] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/model.config\n'}
+[16.518929] (fish_hpurv) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/urdf\n'}
+[16.518962] (fish_hpurv) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/urdf/fish_hpurv_macro.urdf.xacro\n'}
+[16.519290] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/lib/fish_hpurv/joint_publisher\n'}
+[16.520174] (fish_hpurv) StdoutLine: {'line': b'-- Set runtime path of "/home/uav/ros2_ws/install/fish_hpurv/lib/fish_hpurv/joint_publisher" to ""\n'}
+[16.520230] (fish_hpurv) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/ament_index/resource_index/package_run_dependencies/fish_hpurv\n'}
+[16.520258] (fish_hpurv) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/ament_index/resource_index/parent_prefix_path/fish_hpurv\n'}
+[16.520283] (fish_hpurv) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/environment/ament_prefix_path.sh\n'}
+[16.520308] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/environment/ament_prefix_path.dsv\n'}
+[16.520452] (fish_hpurv) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/environment/path.sh\n'}
+[16.520614] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/environment/path.dsv\n'}
+[16.520676] (fish_hpurv) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/local_setup.bash\n'}
+[16.520761] (fish_hpurv) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/local_setup.sh\n'}
+[16.520838] (fish_hpurv) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/local_setup.zsh\n'}
+[16.520916] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/local_setup.dsv\n'}
+[16.521152] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/package.dsv\n'}
+[16.521303] (fish_hpurv) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/ament_index/resource_index/packages/fish_hpurv\n'}
+[16.521340] (fish_hpurv) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.521367] (fish_hpurv) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/cmake/fish_hpurvConfig.cmake\n'}
+[16.521393] (fish_hpurv) StdoutLine: {'line': b'-- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/cmake/fish_hpurvConfig-version.cmake\n'}
+[16.521420] (fish_hpurv) StdoutLine: {'line': b'-- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/package.xml\n'}
+[16.522034] (fish_hpurv) CommandEnded: {'returncode': 0}
+[16.530155] (-) TimerEvent: {}
+[16.530669] (fish_hpurv) JobEnded: {'identifier': 'fish_hpurv', 'rc': 0}
+[16.531150] (-) EventReactorShutdown: {}

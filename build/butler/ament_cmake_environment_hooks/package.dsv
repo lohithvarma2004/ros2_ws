@@ -1,0 +1,4 @@
+source;share/butler/local_setup.bash
+source;share/butler/local_setup.dsv
+source;share/butler/local_setup.sh
+source;share/butler/local_setup.zsh

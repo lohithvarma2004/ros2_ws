@@ -1,0 +1,7 @@
+[01m[K/home/uav/ros2_ws/src/fish_dvl_plugin/src/dvl_plugin.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kgazebo/sensors/SensorPlugin.hh: No such file or directory
+    5 | #include [01;31m[K<gazebo/sensors/SensorPlugin.hh>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/fish_dvl_plugin.dir/build.make:76: CMakeFiles/fish_dvl_plugin.dir/src/dvl_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/fish_dvl_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

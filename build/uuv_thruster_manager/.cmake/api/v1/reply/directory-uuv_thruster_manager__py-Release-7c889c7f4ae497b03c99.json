@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "uuv_thruster_manager__py",
+		"source" : "/home/uav/ros2_ws/build/uuv_thruster_manager/uuv_thruster_manager__py"
+	}
+}

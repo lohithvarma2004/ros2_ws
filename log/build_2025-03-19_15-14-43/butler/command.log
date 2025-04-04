@@ -1,0 +1,6 @@
+Invoking command in '/home/uav/ros2_ws/build/butler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/uav/ros2_ws/src/butler -DCMAKE_INSTALL_PREFIX=/home/uav/ros2_ws/install/butler
+Invoked command in '/home/uav/ros2_ws/build/butler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/uav/ros2_ws/src/butler -DCMAKE_INSTALL_PREFIX=/home/uav/ros2_ws/install/butler
+Invoking command in '/home/uav/ros2_ws/build/butler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/uav/ros2_ws/build/butler -- -j20 -l20
+Invoked command in '/home/uav/ros2_ws/build/butler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/uav/ros2_ws/build/butler -- -j20 -l20
+Invoking command in '/home/uav/ros2_ws/build/butler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/uav/ros2_ws/build/butler
+Invoked command in '/home/uav/ros2_ws/build/butler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/uav/ros2_ws/build/butler

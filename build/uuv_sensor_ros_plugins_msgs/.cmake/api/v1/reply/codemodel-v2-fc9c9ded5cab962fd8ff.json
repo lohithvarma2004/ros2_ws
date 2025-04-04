@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-c37afebf2a43ebacce87.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "uuv_sensor_ros_plugins_msgs__py",
+					"jsonFile" : "directory-uuv_sensor_ros_plugins_msgs__py-Release-8be1175b07c0f8242f41.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/uav/ros2_ws/build/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "uuv_sensor_ros_plugins_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_uuv_sensor_ros_plugins_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_uuv_sensor_ros_plugins_msgs_egg-Release-87f187e52a0b00c14f82.json",
+					"name" : "ament_cmake_python_build_uuv_sensor_ros_plugins_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_uuv_sensor_ros_plugins_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_uuv_sensor_ros_plugins_msgs-Release-09617ea3853554616352.json",
+					"name" : "ament_cmake_python_copy_uuv_sensor_ros_plugins_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-a676e6a01d210187ad25.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_sensor_ros_plugins_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_sensor_ros_plugins_msgs-Release-7503dc3011dfc39c3540.json",
+					"name" : "uuv_sensor_ros_plugins_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_sensor_ros_plugins_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_sensor_ros_plugins_msgs__cpp-Release-3f56ccdf7d182e75af8c.json",
+					"name" : "uuv_sensor_ros_plugins_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uuv_sensor_ros_plugins_msgs__py::@dc0e75f3b8bec2bfbef2",
+					"jsonFile" : "target-uuv_sensor_ros_plugins_msgs__py-Release-50c8c88ed10bcf035e42.json",
+					"name" : "uuv_sensor_ros_plugins_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_sensor_ros_plugins_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_sensor_ros_plugins_msgs__rosidl_generator_c-Release-344c900ff274f8083326.json",
+					"name" : "uuv_sensor_ros_plugins_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_sensor_ros_plugins_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_sensor_ros_plugins_msgs__rosidl_generator_py-Release-7210ff0218de5d041022.json",
+					"name" : "uuv_sensor_ros_plugins_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_sensor_ros_plugins_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_sensor_ros_plugins_msgs__rosidl_typesupport_c-Release-23e02edd2372da60a772.json",
+					"name" : "uuv_sensor_ros_plugins_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_sensor_ros_plugins_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_sensor_ros_plugins_msgs__rosidl_typesupport_c__pyext-Release-99bf5ab2412330b9b7e5.json",
+					"name" : "uuv_sensor_ros_plugins_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_sensor_ros_plugins_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_sensor_ros_plugins_msgs__rosidl_typesupport_cpp-Release-dda3a8e6d0fbd2625223.json",
+					"name" : "uuv_sensor_ros_plugins_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_c-Release-c671929bfa8efc00b3c9.json",
+					"name" : "uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_c__pyext-Release-7b308f56588a167d102e.json",
+					"name" : "uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp-Release-b33a538bcfe36017dce8.json",
+					"name" : "uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_c-Release-139033d26675bb145044.json",
+					"name" : "uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_c__pyext-Release-7ef8864aee130bd00f0f.json",
+					"name" : "uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_cpp-Release-a876b242562d881f3bf3.json",
+					"name" : "uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_sensor_ros_plugins_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_sensor_ros_plugins_msgs_uninstall-Release-f21e5e8de4efd584ddb6.json",
+					"name" : "uuv_sensor_ros_plugins_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/uav/ros2_ws/build/uuv_sensor_ros_plugins_msgs",
+		"source" : "/home/uav/ros2_ws/src/Plankton/uuv_sensor_plugins/uuv_sensor_ros_plugins_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

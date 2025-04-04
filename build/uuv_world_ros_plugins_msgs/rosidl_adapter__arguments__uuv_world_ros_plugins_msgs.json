@@ -1,0 +1,13 @@
+{
+  "package_name": "uuv_world_ros_plugins_msgs",
+  "non_idl_tuples": [
+    "/home/uav/ros2_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins_msgs:srv/SetCurrentModel.srv",
+    "/home/uav/ros2_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins_msgs:srv/GetCurrentModel.srv",
+    "/home/uav/ros2_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins_msgs:srv/SetCurrentVelocity.srv",
+    "/home/uav/ros2_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins_msgs:srv/SetCurrentDirection.srv",
+    "/home/uav/ros2_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins_msgs:srv/SetOriginSphericalCoord.srv",
+    "/home/uav/ros2_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins_msgs:srv/GetOriginSphericalCoord.srv",
+    "/home/uav/ros2_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins_msgs:srv/TransformToSphericalCoord.srv",
+    "/home/uav/ros2_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins_msgs:srv/TransformFromSphericalCoord.srv"
+  ]
+}

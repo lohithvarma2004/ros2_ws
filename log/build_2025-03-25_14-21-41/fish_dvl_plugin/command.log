@@ -1,0 +1,4 @@
+Invoking command in '/home/uav/ros2_ws/build/fish_dvl_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/uav/ros2_ws/src/fish_dvl_plugin -DCMAKE_INSTALL_PREFIX=/home/uav/ros2_ws/install/fish_dvl_plugin
+Invoked command in '/home/uav/ros2_ws/build/fish_dvl_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/uav/ros2_ws/src/fish_dvl_plugin -DCMAKE_INSTALL_PREFIX=/home/uav/ros2_ws/install/fish_dvl_plugin
+Invoking command in '/home/uav/ros2_ws/build/fish_dvl_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/uav/ros2_ws/build/fish_dvl_plugin -- -j20 -l20
+Invoked command in '/home/uav/ros2_ws/build/fish_dvl_plugin' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/uav/ros2_ws/build/fish_dvl_plugin -- -j20 -l20

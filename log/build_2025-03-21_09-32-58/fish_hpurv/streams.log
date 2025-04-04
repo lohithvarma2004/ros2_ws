@@ -1,0 +1,168 @@
+[0.008s] Invoking command in '/home/uav/ros2_ws/build/fish_hpurv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/uav/ros2_ws/src/fish_hpurv -DCMAKE_INSTALL_PREFIX=/home/uav/ros2_ws/install/fish_hpurv
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.221s] -- The CXX compiler identification is GNU 11.4.0
+[0.337s] -- Detecting C compiler ABI info
+[0.389s] -- Detecting C compiler ABI info - done
+[0.392s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.393s] -- Detecting C compile features
+[0.393s] -- Detecting C compile features - done
+[0.395s] -- Detecting CXX compiler ABI info
+[0.459s] -- Detecting CXX compiler ABI info - done
+[0.463s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.463s] -- Detecting CXX compile features
+[0.463s] -- Detecting CXX compile features - done
+[0.465s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.551s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.609s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.681s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.684s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.690s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.708s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.737s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.740s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.228s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.727s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.621s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.628s] -- Looking for pthread.h
+[2.682s] -- Looking for pthread.h - found
+[2.682s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.742s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.743s] -- Found Threads: TRUE  
+[2.776s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.777s] -- Checking for module 'bullet>=2.82'
+[2.783s] --   Found bullet, version 3.05
+[2.840s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[2.862s] -- Found assimp: /usr/include (found version "5.2.0") 
+[2.874s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.892s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[3.025s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.029s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.033s] -- Searching for dependencies of ignition-math6
+[3.034s] -- Looking for OGRE...
+[3.034s] -- OGRE_PREFIX_WATCH changed.
+[3.037s] -- Checking for module 'OGRE'
+[3.043s] --   Found OGRE, version 1.9.0
+[3.057s] -- Found Ogre Ghadamon (1.9.0)
+[3.195s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.201s] -- Looking for OGRE_Paging...
+[3.327s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.327s] -- Looking for OGRE_Terrain...
+[3.462s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.462s] -- Looking for OGRE_Property...
+[3.587s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.587s] -- Looking for OGRE_RTShaderSystem...
+[3.714s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.714s] -- Looking for OGRE_Volume...
+[3.839s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.839s] -- Looking for OGRE_Overlay...
+[3.966s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[10.581s] -- Looking for ignition-math6 -- found version 6.15.1
+[10.583s] -- Looking for ignition-transport8 -- found version 8.2.1
+[10.583s] -- Searching for dependencies of ignition-transport8
+[11.018s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[11.445s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[11.448s] -- Checking for module 'libzmq >= 4'
+[11.454s] --   Found libzmq , version 4.3.4
+[11.469s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[11.484s] -- Checking for module 'uuid'
+[11.490s] --   Found uuid, version 2.37.2
+[11.504s] -- Found UUID: TRUE  
+[11.506s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[11.506s] -- Searching for dependencies of ignition-msgs5
+[11.936s] -- Looking for ignition-math6 -- found version 6.15.1
+[11.939s] -- Checking for module 'tinyxml2'
+[11.945s] --   Found tinyxml2, version 9.0.0
+[11.959s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[11.961s] -- Looking for ignition-common3 -- found version 3.14.0
+[11.961s] -- Searching for dependencies of ignition-common3
+[11.974s] -- Looking for dlfcn.h - found
+[11.987s] -- Looking for libdl - found
+[11.988s] -- Found DL: TRUE  
+[12.020s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[12.020s] -- Searching for <ignition-common3> component [graphics]
+[12.022s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[12.022s] -- Searching for dependencies of ignition-common3-graphics
+[12.022s] -- Looking for ignition-math6 -- found version 6.15.1
+[12.024s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[12.025s] -- Searching for dependencies of ignition-fuel_tools4
+[12.530s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[12.535s] -- Checking for module 'jsoncpp'
+[12.541s] --   Found jsoncpp, version 1.9.5
+[12.555s] -- Found JSONCPP: TRUE  
+[12.558s] -- Checking for module 'libzip'
+[12.564s] --   Found libzip, version 1.7.3
+[12.578s] -- Found ZIP: TRUE  
+[12.578s] -- Looking for ignition-common3 -- found version 3.14.0
+[12.578s] -- Looking for ignition-math6 -- found version 6.15.1
+[12.578s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[12.581s] -- Gazebo version: 11.10
+[12.581s] -- Checking for module 'tbb'
+[12.587s] --   Found tbb, version 2021.5.0
+[12.602s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[12.604s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.654s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.657s] -- Added test 'flake8' to check Python code syntax and style conventions
+[12.657s] -- Added test 'lint_cmake' to check CMake code style
+[12.658s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[12.660s] -- Added test 'xmllint' to check XML markup files
+[12.661s] -- Configuring done
+[12.664s] -- Generating done
+[12.666s] -- Build files have been written to: /home/uav/ros2_ws/build/fish_hpurv
+[12.673s] Invoked command in '/home/uav/ros2_ws/build/fish_hpurv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/uav/ros2_ws/src/fish_hpurv -DCMAKE_INSTALL_PREFIX=/home/uav/ros2_ws/install/fish_hpurv
+[12.674s] Invoking command in '/home/uav/ros2_ws/build/fish_hpurv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/uav/ros2_ws/build/fish_hpurv -- -j20 -l20
+[12.694s] Invoked command in '/home/uav/ros2_ws/build/fish_hpurv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/uav/ros2_ws/build/fish_hpurv -- -j20 -l20
+[12.699s] Invoking command in '/home/uav/ros2_ws/build/fish_hpurv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/uav/ros2_ws/build/fish_hpurv
+[12.702s] -- Install configuration: ""
+[12.702s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/launch
+[12.702s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/launch/display.launch.py
+[12.702s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/urdf
+[12.702s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/urdf/fish.urdf
+[12.702s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/urdf/fish_hpurv_macro.urdf.xacro
+[12.702s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/config
+[12.703s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/config/display.rviz
+[12.703s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes
+[12.703s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_base.stl
+[12.703s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_p1.stl
+[12.703s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_p2.part
+[12.703s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_base.part
+[12.703s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_p2.stl
+[12.703s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_link2.stl
+[12.703s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_link1.stl
+[12.703s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_link1.part
+[12.703s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_p1.part
+[12.704s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/meshes/link_link2.part
+[12.704s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/worlds
+[12.704s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/worlds/room.sdf
+[12.704s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/worlds/ocean.world
+[12.704s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/worlds/fish_world.world
+[12.704s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models
+[12.704s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv
+[12.704s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/fish.sdf
+[12.704s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes
+[12.704s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_base.stl
+[12.704s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_p1.stl
+[12.704s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_p2.part
+[12.704s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_base.part
+[12.704s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_p2.stl
+[12.705s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/meshes/link_p1.part
+[12.705s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/models/fish_hpurv/model.config
+[12.705s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/urdf
+[12.705s] -- Up-to-date: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/urdf/fish_hpurv_macro.urdf.xacro
+[12.705s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/ament_index/resource_index/package_run_dependencies/fish_hpurv
+[12.705s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/ament_index/resource_index/parent_prefix_path/fish_hpurv
+[12.705s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/environment/ament_prefix_path.sh
+[12.705s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/environment/ament_prefix_path.dsv
+[12.705s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/environment/path.sh
+[12.705s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/environment/path.dsv
+[12.705s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/local_setup.bash
+[12.705s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/local_setup.sh
+[12.705s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/local_setup.zsh
+[12.705s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/local_setup.dsv
+[12.706s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/package.dsv
+[12.706s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/ament_index/resource_index/packages/fish_hpurv
+[12.706s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.706s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/cmake/fish_hpurvConfig.cmake
+[12.706s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/cmake/fish_hpurvConfig-version.cmake
+[12.706s] -- Installing: /home/uav/ros2_ws/install/fish_hpurv/share/fish_hpurv/package.xml
+[12.707s] Invoked command in '/home/uav/ros2_ws/build/fish_hpurv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/uav/ros2_ws/build/fish_hpurv

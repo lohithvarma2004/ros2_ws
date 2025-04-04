@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-dbc268920c104e1e09b7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "uuv_world_ros_plugins_msgs__py",
+					"jsonFile" : "directory-uuv_world_ros_plugins_msgs__py-Release-5673eec4b664b5f4e165.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/uav/ros2_ws/build/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "uuv_world_ros_plugins_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_uuv_world_ros_plugins_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_uuv_world_ros_plugins_msgs_egg-Release-149a43e432a238717b69.json",
+					"name" : "ament_cmake_python_build_uuv_world_ros_plugins_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_uuv_world_ros_plugins_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_uuv_world_ros_plugins_msgs-Release-fe09e77abc30ef87a387.json",
+					"name" : "ament_cmake_python_copy_uuv_world_ros_plugins_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-8ee650221e32b525cb20.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_world_ros_plugins_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_world_ros_plugins_msgs-Release-40f9851cde813c967065.json",
+					"name" : "uuv_world_ros_plugins_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_world_ros_plugins_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_world_ros_plugins_msgs__cpp-Release-cf16dde9ba4a51142870.json",
+					"name" : "uuv_world_ros_plugins_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uuv_world_ros_plugins_msgs__py::@44d011ea83b4825a4081",
+					"jsonFile" : "target-uuv_world_ros_plugins_msgs__py-Release-e21a435311cf5ad02abd.json",
+					"name" : "uuv_world_ros_plugins_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_world_ros_plugins_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_world_ros_plugins_msgs__rosidl_generator_c-Release-484833b05542f64c8961.json",
+					"name" : "uuv_world_ros_plugins_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_world_ros_plugins_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_world_ros_plugins_msgs__rosidl_generator_py-Release-55950b1932cc928e70da.json",
+					"name" : "uuv_world_ros_plugins_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_world_ros_plugins_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_world_ros_plugins_msgs__rosidl_typesupport_c-Release-e675a9c81ceba3f7bc68.json",
+					"name" : "uuv_world_ros_plugins_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_world_ros_plugins_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_world_ros_plugins_msgs__rosidl_typesupport_c__pyext-Release-46c5141459edf3e2fce4.json",
+					"name" : "uuv_world_ros_plugins_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp-Release-1f298891473a2c230b8b.json",
+					"name" : "uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c-Release-fa1d152db4eb9f2f91b7.json",
+					"name" : "uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c__pyext-Release-a68830cb42e676c6dc7e.json",
+					"name" : "uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp-Release-2c75054ca0cf3de614f1.json",
+					"name" : "uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c-Release-600512e2409010988e04.json",
+					"name" : "uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c__pyext-Release-bbb1bdbdc28745ff1834.json",
+					"name" : "uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp-Release-bdebc38c003affad8245.json",
+					"name" : "uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_world_ros_plugins_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_world_ros_plugins_msgs_uninstall-Release-dc1bdd4370e45fcefad0.json",
+					"name" : "uuv_world_ros_plugins_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/uav/ros2_ws/build/uuv_world_ros_plugins_msgs",
+		"source" : "/home/uav/ros2_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

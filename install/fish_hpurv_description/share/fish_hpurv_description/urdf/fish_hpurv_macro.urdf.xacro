@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="fish_hpurv">
+  <!-- Define properties -->
+  <xacro:property name="mass" value="1.0" />
+  <!-- Adjust this offset (e.g., "1.0 0 0" or "0 0 0") until the mesh appears correctly -->
+  <xacro:property name="mesh_offset" value="0 0 0" />
+
+  <!-- Link with mesh visual and collision -->
+  <link name="link1">
+    <visual>
+      <!-- Apply offset to visual geometry -->
+      <origin xyz="${mesh_offset}" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://uuv_descriptions/meshes/RexROV_no_props.stl"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <!-- Apply same offset to collision geometry -->
+      <origin xyz="${mesh_offset}" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://uuv_descriptions/meshes/RexROV_no_props.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="${mass}"/>
+      <inertia ixx="0.1" ixy="0.0" ixz="0.0" iyy="0.1" iyz="0.0" izz="0.1"/>
+    </inertial>
+  </link>
+
+  <!-- Base link (remains at origin) -->
+  <link name="base_link"/>
+
+  <!-- Fixed joint connecting base_link and link1 -->
+  <joint name="base_to_link1" type="fixed">
+    <parent link="base_link"/>
+    <child link="link1"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+</robot>
